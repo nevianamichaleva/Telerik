@@ -1,2 +1,2 @@
 # Telerik
-All my works
+All my works in Telerik Academy 
