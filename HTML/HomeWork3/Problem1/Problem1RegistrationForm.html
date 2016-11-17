@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <title>Registration Form</title>  
+</head>
+<body>
+    <form id="registrationForm">
+    <table cellpadding="3px" border="1">
+        <colgroup>
+            <col width="180px">
+            <col width="350px">
+        </colgroup>
+        <tr>
+            <th align="right"><label for="lName">Last Name</label></th>
+            <td><input type="text" id="lName" name="lName" size="38" value="Nakov"/></td>
+        </tr>
+        <tr>
+            <th align="right"><label for="fName">First Name</label></th>
+            <td><input type="text" id="fName" name="fName" size="38" value="Svetlin"/></td>
+        </tr>
+        <tr>
+            <th align="right"><label for="address">Address</label></th>
+            <td><textarea id="address" name="address" rows="10" cols="41">
+17 Hristo Botev Str. floor 3, apt.12
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <th align="right"><label for="city">City</label></th>
+            <td><input type="text" id="city" name="City" value="Kaspichan"/>
+                 <label for="state"><strong>State</strong></label>
+                <input id="state" type="text" size="5"/>
+            </td>
+        </tr>
+        <tr>
+            <th align="right"><label for="zip">Zip/Pstal/Copy</label></th>
+            <td><input type="text" id="zip" name="zip" size="5" value="9325"/></td>
+        </tr>
+        <tr>
+            <th align="right"><label for="code">Phone (country code, area code, number)</label></th>
+            <td>(+<input type="text" id="code" name="Ccode" size="5" value="359"/>)
+            <input type="text" name="Acode" size="3" value="88"/>
+            <input type="text" name="phone" size="18" value="8334343"/>
+            </td>
+        </tr>
+        <tr>
+            <th align="right"><label for="mail">E-mail</label></th>
+            <td><input type="email" id="mail" name="email" value="nakov@kaspichan.org" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/></td>
+        </tr>
+        <tr>
+            <th align="right"><label for="bMonth">Birth date</label></th>
+            <td>
+                <label for="bMonth">Month</label><input type="text" id="bMonth" name="bMonth" size="2" value="06">
+                <label for="bDay">Day</label><input type="text" id="bDay" name="bDay" size="2" value="14">
+                <label for="bYear">Year (4 digit)</label><input type="text" id="bYear" name="bYear" size="4" value="1980">
+            </td>
+        </tr>
+        <tr>
+            <th align="right"><label for="gender">Gender</label></th>
+            <td>
+                <select name="gender" id="gender">
+                    <option value="1" selected="selected">Male</option>
+                    <option value="2">Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th align="right">Starting date</th>
+            <td>
+                <input type="radio" name="startDate" checked/>Spring 2006
+                <input type="radio" name="startDate"/>Summer 2006
+            </td>
+        </tr>
+        <tr>
+            <th align="right"><label for="comments">Comments/Qustions</label></th>
+            <td><textarea name="comments" id="comments" rows="10" cols="41">
+Please send me more information about the lodging
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" bgcolor="#2E64FE">
+            <input type="submit"/>
+            <input type="reset" value="Clean This Form"/>
+            </td>
+        </tr>
+    </table>
+    
+    </form>
+</body>
+</html>   
