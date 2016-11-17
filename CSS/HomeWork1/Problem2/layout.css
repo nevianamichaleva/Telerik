@@ -1,0 +1,65 @@
+table {
+	width: 456px;
+	height: 133px;
+	border: none;
+	border-collapse: collapse;
+	border-bottom: 1px solid #BBB99D;
+	table-layout: auto;
+}
+table td, table th {
+	border-left: 1px solid #BBB99D;
+	border-right: 1px solid #BBB99D;
+}
+table td:first-child, table th:first-child {
+	border-left: none;
+}
+
+table td:last-child, table th:last-child {
+	border-right: none;
+}
+th, td {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.7em;
+	padding: 5px;
+
+}
+th {
+	background-color: #54B706;
+	font-weight: lighter;
+	color: white;
+	text-align: left;
+	border-bottom: 1px solid #BBB99D;
+}
+tr:nth-child(even) {
+	background-color: #ECECD8;
+}
+#FCol {
+	width: 138px;
+}
+#SCol {
+	width: 110px;
+}
+#TCol {
+	width: 126px;
+}
+#FtCol {
+	width: 82px;
+}
+.myCheck input {
+	display: none;
+}
+.myCheck span {
+	width: 13px;
+    height: 13px;
+    display: block;
+    background: url("uncheck.jpg");
+}
+.myCheck input:checked + span {
+    background: url("checked.jpg");
+}
+img {
+	padding-right: 5px;
+}
+td {
+	letter-spacing: -1px;
+}

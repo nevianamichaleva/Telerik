@@ -1,0 +1,265 @@
+{
+  "users": [
+    {
+      "username": "Doncho",
+      "passHash": "4cb5ba2355368d4dfd14c9eee9a134791f7001cb",
+      "usernameLower": "doncho",
+      "authKey": "undefined+tusvd@Kh_@ixbA*Q$fvLmq(CJJmu*DN%E^i@OUr&eoAJn!*uak",
+      "id": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+      "events": [
+        {
+          "id": 449037,
+          "title": "Test",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        },
+        {
+          "id": 449037,
+          "title": "Test",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        },
+        {
+          "id": 792579,
+          "title": "Test",
+          "category": "Free time",
+          "description": "",
+          "date": "2015-09-17T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        }
+      ],
+      "todos": [
+        {
+          "id": 27882,
+          "text": "qwe",
+          "state": true,
+          "category": "Home"
+        },
+        {
+          "id": 365117,
+          "text": "NEW TODO",
+          "state": false,
+          "category": "Home"
+        }
+      ]
+    },
+    {
+      "username": "Cuki",
+      "passHash": "6edbb5c948d25789eccdfb37b70ff7f728f49786",
+      "usernameLower": "cuki",
+      "authKey": "undefinedLcy$^v^zXyoxyXQ_BbAJIRYwi%KiGGlD^ry+-N@AIwpP%EhOAUK",
+      "id": "f2c8726a-773e-403c-ad76-37dad93c9a8c"
+    },
+    {
+      "username": "Cuki2",
+      "passHash": "dfacf7f490d8e38e7895caad02e3693236216f51",
+      "usernameLower": "cuki2",
+      "authKey": "undefinedTZvCUbyZH(!=m-+)$fcAjzD)NPiWfGt(r!MHSzrCPAb(nGfp%*!",
+      "id": "1987f231-b978-49de-a5eb-d3f57f1f6fa6"
+    },
+    {
+      "username": "Cuki3",
+      "passHash": "05e18f169bb85da8722deb800fa8e3898c809146",
+      "usernameLower": "cuki3",
+      "authKey": "undefined&a*=xajP_XX&NIPuGIJIgcTfFWlZ&#BdA*zD*@TUUvNc^TmOfw(",
+      "id": "22402c86-f18e-4689-9fc3-237205fad856"
+    },
+    {
+      "username": "newan",
+      "password": "111",
+      "usernameLower": "newan",
+      "authKey": "undefinedJ#s_FuoHbh*yn#uKYI=B(m$iHDXj=ihvYv_YHvj!kZP&mJVCwge",
+      "id": "0dfda11f-d4f1-4fea-9cba-064121f402fb"
+    },
+    {
+      "username": "Neviana Michaleva",
+      "password": "11111",
+      "usernameLower": "neviana michaleva",
+      "authKey": "undefinedX_YbcZp%a$u$v+atxWRipHhymbVi!rxrZFieosLGjOITaAKt*a%",
+      "id": "c0d661cb-f928-43ee-9d7e-6e512e86fee7"
+    },
+    {
+      "username": "newaslava",
+      "password": "1111111",
+      "usernameLower": "newaslava",
+      "authKey": "undefined!&C$(ZPOdz=CFlgIkdy^#S+L)vs-%bXJeC&tpINpIa*qqdFXOT_",
+      "id": "91bdac09-83a6-47cf-afa2-f2e3fc299f78"
+    },
+    {
+      "username": "sss",
+      "passHash": "1c6637a8f2e1f75e06ff9984894d6bd16a3a36a9",
+      "usernameLower": "sss",
+      "authKey": "undefinedwCi%ZDoLixry*f!EA#fPEbFwi$EZvZbsyKlRpjqLitXXSEXXi(t",
+      "id": "313b4e27-aef0-4052-bd50-5ec32fd6e688"
+    },
+    {
+      "username": "ns1@abv.bg",
+      "passHash": "1c6637a8f2e1f75e06ff9984894d6bd16a3a36a9",
+      "usernameLower": "ns1@abv.bg",
+      "authKey": "undefinediIuqk*MoHXc_fGPAfXFOS_!l(D(%XpG$_i^+NK=_enyswkQVmuw",
+      "id": "4009a0dd-0142-4142-a422-5a91a6139c4b"
+    },
+    {
+      "username": "Filip",
+      "passHash": "6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2",
+      "usernameLower": "filip",
+      "authKey": "undefinedfdE^UgZwyoP@JtuY(@Kv#NFQhfrUMfBZkBrb=MDPKqLyOCTNshm",
+      "id": "901ebc76-4d48-41c4-8931-34382b3690a0"
+    },
+    {
+      "username": "Nia",
+      "passHash": "356a192b7913b04c54574d18c28d46e6395428ab",
+      "usernameLower": "nia",
+      "authKey": "undefinedeNgXak%fFIaEAcRoWhr+)PwM%=WVCol=t%zPE%KNRjqh(ZnXOkx",
+      "id": "6416eaf4-c7b3-4269-8a29-834b653efc4f"
+    },
+    {
+      "username": "sssd",
+      "passHash": "6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2",
+      "usernameLower": "sssd",
+      "authKey": "undefinedlp**(vyh)TctvfuSaOEIHiSdVx%DsbZWXURU)z$!GgETUN#Wz!o",
+      "id": "17093a5b-3d78-4601-a911-31f45d0355ec"
+    },
+    {
+      "username": "Mila",
+      "passHash": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220",
+      "usernameLower": "mila",
+      "authKey": "undefinedyxmuOf!^K*DEktSlALaoJCENIhJ^NOU_SJGlpZ_PYZwF&B@W%F_",
+      "id": "9a31ddce-52be-4a7b-baf4-ac2a7fec1c81",
+      "todos": [
+        {
+          "id": 27882,
+          "text": "qwe",
+          "state": true,
+          "category": "Home"
+        },
+        {
+          "id": 365117,
+          "text": "NEW TODO",
+          "state": false,
+          "category": "Home"
+        },
+        {
+          "id": 721247,
+          "text": "",
+          "state": false,
+          "category": "uncategorized"
+        },
+        {
+          "id": 945363,
+          "text": "",
+          "state": true,
+          "category": "uncategorized"
+        },
+        {
+          "id": 979643,
+          "text": "",
+          "state": false,
+          "category": "uncategorized"
+        },
+        {
+          "id": 52954,
+          "text": "",
+          "state": true,
+          "category": "uncategorized"
+        },
+        {
+          "id": 56497,
+          "text": "",
+          "state": false,
+          "category": "uncategorized"
+        },
+        {
+          "id": 64935,
+          "text": "",
+          "state": false,
+          "category": "uncategorized"
+        },
+        {
+          "id": 286104,
+          "text": "FunfUN",
+          "state": false,
+          "category": "hOME"
+        },
+        {
+          "id": 310185,
+          "text": "Some",
+          "state": false,
+          "category": "new"
+        },
+        {
+          "id": 250725,
+          "text": "аСАС",
+          "state": true,
+          "category": "СД"
+        },
+        {
+          "id": 500200,
+          "text": "ффф",
+          "state": true,
+          "category": "ффф"
+        },
+        {
+          "id": 652041,
+          "text": "ддсд",
+          "state": true,
+          "category": "сддд"
+        },
+        {
+          "id": 727308,
+          "text": "ссс",
+          "state": false,
+          "category": "ссс"
+        },
+        {
+          "id": 128046,
+          "text": "Хоме",
+          "state": false,
+          "category": "Free time"
+        }
+      ]
+    },
+    {
+      "username": "Mia",
+      "passHash": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220",
+      "usernameLower": "mia",
+      "authKey": "undefinedQHO)PLZ=pxCBLP-WIl_#jy&)Y-(MijiOgp$#tl!a(L&ooQ!KSiq",
+      "id": "9062202e-4988-468f-87c2-e9a1e8858a47",
+      "todos": [
+        {
+          "id": 504336,
+          "text": "ddd",
+          "state": true,
+          "category": "ssas"
+        },
+        {
+          "id": 513367,
+          "text": "sdsds",
+          "state": true,
+          "category": "ddd"
+        },
+        {
+          "id": 656055,
+          "text": "sss",
+          "state": false,
+          "category": "fun"
+        }
+      ]
+    }
+  ]
+}

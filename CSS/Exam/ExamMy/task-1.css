@@ -1,0 +1,63 @@
+* {
+  margin:0;
+  padding:0;
+}
+#root {
+  width: 960px;
+  height: 805px;
+  background: #CCCCCC;
+  font-size: 18px;
+  margin:20px;
+  padding: 0;
+}
+#root h1 {
+  font-size: 30px;
+  padding: 34px 0 19px 267px;
+}
+#root > .description {
+  width: 866px;
+  height: 94px;
+  background: #7A7A7A;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 2px auto;
+  text-align: center;
+}
+.container {
+  padding: 47px 0 0 0;
+  text-align: center;
+}
+.container ul li p {
+  width: 184px;
+  height: 204px;
+  background: #7A7A7A;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: justify;
+  padding: 15px;
+  margin-right: 5px;
+  z-index:1;
+}
+.container .heroes-list {
+  list-style-type: none;
+  display:inline-block;
+  margin-right: -42px;
+}
+.container ul li {
+  float: left;
+  margin-top: 36px;
+  /* margin-left: 45px; */
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+.container ul li img {
+  width:200px;
+  height: 200px;
+  position:relative;
+  top: -81px;
+  left: -51px;
+  border-radius: 20px;
+ z-index:0;
+}

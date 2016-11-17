@@ -1,0 +1,46 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 14px; }
+  body #root, ul #root {
+    width: 500px;
+    background-color: #205D99; }
+    body #root .avengers li, ul #root .avengers li {
+      border-bottom: 3px solid #79AEE3; }
+      body #root .avengers li input[type=radio], ul #root .avengers li input[type=radio] {
+        display: none; }
+      body #root .avengers li input:checked + label, ul #root .avengers li input:checked + label {
+        font-weight: bold;
+        font-size: 25px;
+        color: #AECFEE; }
+        body #root .avengers li input:checked + label + div, ul #root .avengers li input:checked + label + div {
+          display: block; }
+      body #root .avengers li label, ul #root .avengers li label {
+        color: #E4EFF9;
+        display: block;
+        text-align: center;
+        font-size: 22px;
+        padding-top: 15px;
+        margin-bottom: 13px; }
+        body #root .avengers li label:hover, ul #root .avengers li label:hover {
+          cursor: pointer; }
+      body #root .avengers li .preview, ul #root .avengers li .preview {
+        display: none; }
+        body #root .avengers li .preview img, ul #root .avengers li .preview img {
+          width: 200px;
+          height: 110px;
+          border: 15px solid #79AEE3;
+          border-radius: 15px;
+          float: left;
+          margin-top: 15px;
+          margin-right: 15px;
+          margin-left: 15px; }
+        body #root .avengers li .preview p, ul #root .avengers li .preview p {
+          text-align: justify;
+          color: #E4EFF9;
+          padding-top: 15px;
+          padding-right: 15px;
+          padding-left: 15px; }
+
+/*# sourceMappingURL=style.css.map */

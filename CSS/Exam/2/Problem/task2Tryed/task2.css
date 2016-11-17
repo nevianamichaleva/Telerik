@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    margin: 20px;
+    width: 960px;
+}
+
+#wrapper ul {
+    width: 470px;
+    border: 1px solid #000;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #afafaf), to(#ddd));
+    background-image: -webkit-linear-gradient(#afafaf 7.6%, #ddd);
+    background-image: -moz-linear-gradient(#afafaf 7.6%, #ddd);
+    background-image: -o-linear-gradient(#afafaf 7.6%, #ddd);
+    background-image: linear-gradient(#afafaf 7.6%, #ddd);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: inline-block;
+    border-bottom: none;
+}
+
+#wrapper ul > li {
+    
+    border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 20px;
+}
+
+
+/*#wrapper ul li:nth-of-type(2){
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}*/
+
+#wrapper ul li a {
+    text-decoration: none;
+    /* margin: 0 0 0 0; */
+    /* padding: 2px; */
+}
+
+#wrapper ul li a img {
+    margin: 0 0 0 16px;
+}
+
+#wrapper ul li .content {
+    display: none;
+    position: absolute;
+    border-radius: none;
+    background-image: -webkit-gradient(linear, 0 0, 0 143, color-stop(0.342, #ddd), to(#ccc));
+    background-image: -webkit-linear-gradient(#ddd 34.2%, #ccc);
+    background-image: -moz-linear-gradient(#ddd 34.2%, #ccc);
+    background-image: -o-linear-gradient(#ddd 34.2%, #ccc);
+    background-image: linear-gradient(#ddd 34.2%, #ccc)
+}
+
+#wrapper ul li:hover >.content {
+    display: block;
+}
+
+#wrapper ul li a img {
+    width: 14px;
+    height: 14px;
+}
+
+#wrapper ul li a span {
+    color: #777777;
+    font-size: 22px;
+}

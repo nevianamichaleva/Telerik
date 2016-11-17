@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding:0;
+}
+#root {
+    margin: 20px;
+}
+#root h1 {
+    width:1020px;
+    height: 68px;
+    background: #CCCCCC;
+    margin-bottom: 35px;
+}
+/*#root h1 span::before {
+   content: url('../imgs/logo.png');
+   background-size: 66px 25px;
+    display: inline-block;
+    width: 66px; 
+    height: 25px;
+   
+}*/
+#root h1 span {
+    display:inline-block;
+    margin: 15px 0 0 410px;
+    color:white;
+    text-shadow: 3px 3px 3px #000;
+    
+    
+}
+#root .superheroes li img {
+    width:175px;
+    height: 175px;
+    border-radius: 15px;
+    
+}
+#root .superheroes li {
+    float: left;
+    
+    
+}
+#root .superheroes li a {
+    display: none;
+}
+#root .superheroes {
+    list-style-type: none;
+    position:relative;
+}
+#root .superheroes li strong {
+    background:#333333;
+  width:175px;
+  height: 50px;
+  opacity:0.8;
+  display: inline-block
+}
+#root .superheroes li .hero-header {
+  position:relative;
+    top: -143px;
+    left: 132px;
+  color: #4C4C4C;
+  font-size:20px;
+  
+}

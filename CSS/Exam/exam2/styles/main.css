@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding: 0;
+}
+#site-header{
+    display: block;
+    height: 50px;
+    background: white;
+    padding-top: 18px;
+    text-align: center;
+    color: #963731;
+    text-shadow: 3px 3px #BA7385;
+}
+.superheroes {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.superheroes li{
+    margin-left: 5px;
+    width: 225px;
+    height: 1225px;
+}
+.hero-header{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    width: 225px;
+    height: 35px;
+    background: #88898B;
+    color: #C0A1A6;
+    opacity: 0.3;
+    border-radius: 20px 20px 0 0 ;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-bottom: -80px ;
+}
+img{
+    height: 225px;
+    width: 225px;
+}

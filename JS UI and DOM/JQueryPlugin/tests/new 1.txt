@@ -1,0 +1,5 @@
+expect to generate 1 element with class "dropdown-list", put the select inside it and hide it'
+expect to generate 1 element with class "dropdown-list" that contains the select, and 5 divs with class "dropdown-item"', 
+expect the options to be intially hidden
+expect the options to be visible, when the .current is clicked'
+expect the select to have the selected value and the dropdown to be hidden, when .current is clicked, and then an option is clicked'

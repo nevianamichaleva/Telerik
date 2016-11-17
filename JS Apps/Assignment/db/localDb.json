@@ -1,0 +1,283 @@
+{
+  "users": [
+    {
+      "username": "Doncho",
+      "password": "1234",
+      "usernameToLower": "doncho",
+      "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+      "authKey": "1miUIcFiq4_gueIE6QT5kHYK0woshtAKMGpqAi1H",
+      "userMaterials": [
+        {
+          "id": "dd707118-fbb0-45e7-b95f-c4ee9c90a6c9",
+          "title": "book #1",
+          "category": "want-to-watch"
+        },
+        {
+          "id": "bde2acbc-0bc2-43d2-a46a-4d3deb0eb7b3",
+          "title": "book #2",
+          "category": "want-to-watch"
+        }
+      ]
+    },
+    {
+      "username": "Doncho3",
+      "password": "1123123234",
+      "usernameToLower": "doncho3",
+      "id": "9b7cce23-db27-43ed-9711-02af4d5c69da"
+    },
+    {
+      "username": "johnnybravo",
+      "password": "mypass123",
+      "usernameToLower": "johnnybravo",
+      "id": "eb02cdd1-8df6-4288-9ea6-4de841cc7057"
+    },
+    {
+      "username": "konnyk",
+      "password": "1234567",
+      "usernameToLower": "konnyk",
+      "id": "2caa8881-302c-45e0-a68e-f3f20414b4cc"
+    },
+    {
+      "username": "Milena",
+      "password": "123456",
+      "usernameToLower": "milena",
+      "id": "092c8b09-d870-4cf3-a503-bc19a2565d09"
+    },
+    {
+      "username": "qqqqqq",
+      "password": "111111",
+      "usernameToLower": "qqqqqq",
+      "id": "c90d276b-a5a0-4b9f-9507-e5350c4bb83f"
+    },
+    {
+      "username": "NSlavova",
+      "password": "111111",
+      "usernameToLower": "nslavova",
+      "id": "6f8fed01-1df3-4b3d-a8ec-a23aa2a37034"
+    },
+    {
+      "username": "Anastasiq",
+      "password": "111111",
+      "usernameToLower": "anastasiq",
+      "id": "f1942ee3-b7ba-4be8-be88-f4a2575a1c55"
+    },
+    {
+      "username": "MariaMaria",
+      "password": "111111",
+      "usernameToLower": "mariamaria",
+      "id": "b0450363-38ba-4910-8420-c136573431a9"
+    },
+    {
+      "username": "IvanIvanov",
+      "password": "111111",
+      "usernameToLower": "ivanivanov",
+      "id": "157e1d65-a8d9-451b-9ced-ba0facd90e24"
+    },
+    {
+      "username": "darifilip",
+      "password": "1111111",
+      "usernameToLower": "darifilip",
+      "id": "77d8fb9e-0d5e-489d-a703-e0beee2ffac6"
+    },
+    {
+      "username": "manuela",
+      "password": "111111",
+      "usernameToLower": "manuela",
+      "id": "20d5ad14-6f01-495f-b6f8-a864b01c3dbb",
+      "authKey": "qxSEFXjQtXV5A1MTQk(zfDyWcYhRqhSKg4JMWJ2F"
+    },
+    {
+      "username": "krasenp",
+      "password": "111111",
+      "usernameToLower": "krasenp",
+      "id": "7ec04793-9180-4de1-a076-153ab70280cd",
+      "authKey": "IhqEPja)HrsSjiu@t276DdNtgfskjGKr!1-NwBUe"
+    },
+    {
+      "username": "mariap",
+      "password": "111111",
+      "usernameToLower": "mariap",
+      "id": "41d3e73f-ad98-4120-b5db-efe78d5cdb96",
+      "authKey": "7dS7@4@LQNu7yXX2Ej2A_(Fm(DHRwAm5viBr3H6-"
+    },
+    {
+      "username": "marinaaa",
+      "password": "qqqqqqqqq",
+      "usernameToLower": "marinaaa",
+      "id": "e4e1e7d9-fdee-4fe1-b9f6-97b074a7746b"
+    }
+  ],
+  "materials": [
+    {
+      "title": "book #1",
+      "description": "The name of the wind",
+      "createdOn": "2016-09-28T12:50:13.612Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "dd707118-fbb0-45e7-b95f-c4ee9c90a6c9"
+    },
+    {
+      "title": "book #2",
+      "description": "JavaScript: The good parts",
+      "createdOn": "2016-09-28T12:50:13.679Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "bde2acbc-0bc2-43d2-a46a-4d3deb0eb7b3"
+    },
+    {
+      "title": "The The tHE...",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:14.271Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "669158cb-63d3-4237-b29f-e7448f65c87f"
+    },
+    {
+      "title": "book #4",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:14.365Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "The poet"
+      },
+      "id": "c042961f-0661-4381-9be9-5de824af2766"
+    },
+    {
+      "title": "book #5",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:14.406Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "cec2f5a5-d79e-41f7-9b5b-fcc364f776f7"
+    },
+    {
+      "title": "book #6",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:14.992Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "cb87a57d-8a7e-4ad6-8594-2b1c9a87cb84"
+    },
+    {
+      "title": "book #7",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:15.055Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "55105362-00ab-4f8c-9d72-eea1d3a28fd3"
+    },
+    {
+      "title": "book #8",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:15.683Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "15925669-ac41-4183-a84b-1bead97d7f49"
+    },
+    {
+      "title": "book #9",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:15.763Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "4d7cc2dd-ef6c-4d26-939b-345ea9874a7f"
+    },
+    {
+      "title": "book #10",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:15.808Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "ffafd855-f6e8-480f-87f8-1ed61fb202fa"
+    },
+    {
+      "title": "It works!",
+      "description": "Should be ok",
+      "createdOn": "2016-10-04T07:43:03.286Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "47f3ae36-6dac-44ce-8684-5a73c9eb1611"
+    },
+    {
+      "title": "It works!",
+      "description": "",
+      "createdOn": "2016-10-04T07:43:20.148Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "17890fff-e311-4196-8346-0d8a57d81e02"
+    },
+    {
+      "title": "It works",
+      "description": "",
+      "createdOn": "2016-10-04T07:43:29.803Z",
+      "rating": 0,
+      "comments": [
+        {
+          "text": "1234",
+          "user": {
+            "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+            "username": "Doncho"
+          }
+        },
+        {
+          "text": "123",
+          "user": {
+            "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+            "username": "Doncho"
+          }
+        }
+      ],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "c4333e8b-cf11-44cb-bc44-bd9e7a5bf1dd"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    width: 800px;
+}
+nav {
+    float: left;
+    width: 18%;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 10px 10px 10px 2px;
+}
+li:first-child > a {
+    color: #880000;
+    font-weight: bold;
+}
+nav ul li a {
+    font-weight: normal;
+    color: #333333;
+    text-decoration: none;
+}
+#home {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav:first-child::before {
+    content: url("Home.png");
+}
+aside {
+    float: left;
+    width: 22%;
+}
+section {
+    float: left;
+    width: 58%;
+    border: 2px solid #909090; 
+    margin-top: 2px;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+header {
+    border-bottom: 2px solid #A2A2A2;
+    padding: 10px 10px 8px 0px;
+    margin: 8px;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+article {
+    padding: 8px;
+}
+article h2 {
+    background-color: #808080;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 3px;
+    padding-left: 3px;
+}
+article img {
+    float: left;
+}
+article p {
+    margin: 11px 2px 8px 5px;
+}
+article a {
+    color: #A02F2D;
+    font-weight: bold;
+}
+#butt {
+    margin: 3px 8px 61px 8px;
+    border-top: 2px solid #A2A2A2;
+    border-bottom: 2px solid #A2A2A2;
+    padding: 9px 0 9px 0;
+}
+aside a {
+     color: #A02F2D;
+     font-weight: bold;
+     text-align: center;
+     display: block;
+}
+aside div {
+    border: 2px solid #A2A2A2;
+    margin: 2px;
+    padding-bottom: 5px;
+}
+aside h4 {
+    background-color: #808080;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+aside input[type=text] {
+    width: 120px;
+}
+aside input {
+    margin: 6px -12px 3px 12px;
+}
+aside button {
+    margin: 3px 3px 3px 31px;
+    width: 100px;
+    height: 31px;
+    background-image: url("button.png");
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding:0;
+}
+#wrapper {
+    color:#333333;
+    text-align: right;
+    
+     font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper form {
+    margin: 20px;
+    width:411px;
+    height: 352px;
+    background: -webkit-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: -o-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: -ms-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: -moz-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: linear-gradient(179deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    border-radius: 15px;
+    border:1px solid #333333;
+}
+#wrapper form fieldset {
+    border-radius: 5px;
+    border:2px solid #333333;
+    margin-top: 14px;
+    margin-right: 16px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    padding:5px;
+}
+#wrapper form fieldset legend {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 55px;
+    padding-left: 15px;
+}
+#wrapper form fieldset input[type=text], input[type=password] {
+    background: -webkit-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: -o-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: -ms-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: -moz-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: linear-gradient(179deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    border-radius: 5px;
+    border:1px solid #008FCE;
+    width: 178px;
+    height: 27px;
+    margin: 2px 12px 0 0;
+}
+#wrapper form fieldset input[type=number] {
+    background: -webkit-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+background: -o-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+background: -ms-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+background: -moz-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+background: linear-gradient(179deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+border-radius: 5px;
+border:1px solid #008FCE;
+width:48px;
+    height: 28px;
+    margin:1px 18px 1px 0;
+}
+button, input[type=reset] {
+    background: -webkit-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: -o-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: -ms-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: -moz-linear-gradient(271deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    background: linear-gradient(179deg, rgb(105, 210, 255) 0%, rgb(139, 254, 251) 100%);
+    border-radius: 5px;
+    border:none;
+    border-bottom:1px solid #333333;
+    width:142px;
+    height: 34px;
+    font-size: 18px;
+    margin-right: 18px;
+    margin-top:5px;
+}
+button:hover, input[type=reset]:hover {
+    background: #9BE1FF;
+}
+input[type=radio] {
+    margin-right: 15px;
+}
+

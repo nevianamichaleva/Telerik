@@ -1,0 +1,24 @@
+{
+  "name": "Calc",
+  "authors": [
+    "nevianamichaleva <nevianamichaleva@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "handlebars": "^4.0.5",
+    "sammy": "^0.7.6",
+    "bootstrap": "^3.3.7",
+    "lodash": "^4.16.4"
+  }
+}

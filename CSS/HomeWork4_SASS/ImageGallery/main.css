@@ -1,0 +1,13 @@
+nav img {
+  width: 120px;
+  height: 90px; }
+
+article {
+  display: none; }
+  article figure {
+    width: 240px;
+    height: 180px; }
+    article figure.target {
+      display: block; }
+
+/*# sourceMappingURL=main.css.map */

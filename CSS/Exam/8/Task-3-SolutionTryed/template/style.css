@@ -1,0 +1,16 @@
+body {
+  font-size: 14px;
+  font-family: Corbel;
+}
+body #root {
+  width: 350px;
+}
+#dd-rank ul, #dd-title ul {
+  display: none;
+}
+#dd-rank .chosen > ul {
+  display:block;
+}
+#dd-title .chosen > ul {
+  display:block;
+}

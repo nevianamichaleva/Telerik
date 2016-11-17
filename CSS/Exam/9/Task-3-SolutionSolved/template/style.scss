@@ -1,0 +1,91 @@
+﻿body {
+    font-size: 14px;
+    font-family: 'Times New Roman';
+
+    #root {
+        width: 700px;
+        height: 400px;
+
+        #previewer {
+            #large {
+                float: left;
+                width: 490px;
+                height: 395px;
+                border: 2px solid #999999;
+
+                img {
+                    width: 450px;
+                    height: 300px;
+                    border: 2px solid #999999;
+                    border-radius: 5px;
+                    margin: 18px 20px 20px 15px;
+                }
+
+                h1 {
+                    margin: 21px 20px 0 93px;
+                }
+            }
+
+            #list {
+                border: 2px solid #999999;
+                width: 200px;
+                height: 395px;
+                display: inline-block;
+
+                strong {
+                    font-size: 22px;
+                    text-align: center;
+                    display: block;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    width: 98px;
+                    height: 50px;
+                    border: 2px solid #999999;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    &:hover {
+                        background-color: #CCCCCC;
+                    }
+                }
+
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                    overflow-y: scroll;
+                    overflow-x: hidden;
+                    width: 200px;
+                    height: 295px;
+                    strong {
+                        font-size: 14px;
+                        text-align: center;
+                        display: block;
+                        margin: 0;
+                    }
+                    li {
+border-bottom: 2px solid #999999;
+margin-left:5px;
+margin-right:5px;
+&:hover {
+    background-color: #CCCCCC;
+    border-radius:5px;
+    img {
+        width:65px;
+height:43px;
+margin:10px 0 10px 55px;
+    }
+}
+                    }
+                    img {
+                        width: 100px;
+                        height: 66px;
+                        border-radius: 5px;
+                        margin-left: 43px;
+                    }
+                }
+            }
+        }
+    }
+}

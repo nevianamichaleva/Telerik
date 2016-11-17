@@ -1,0 +1,12 @@
+<h1>Details for {{result.id}}</h1>
+
+<p>Title: {{result.title}}</p>
+<p>Description: {{result.description}}</p>
+<p>Created on: {{result.createdOn}}</p>
+<p>Rating: {{result.rating}}</p>
+<img src="{{result.img}}" alt="picture" width="100px">
+<p>UserID: {{result.user.id}}</p>
+<p>User: {{result.user.username}}</p>
+{{#result.comments}}
+<p>text: {{text}}</p>
+{{/result.comments}}

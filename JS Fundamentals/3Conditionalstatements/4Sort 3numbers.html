@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>Sort 3 real values in descending order.Use nested if statements.</p>
+    <p>Please input first number</p>
+    <input id="a">
+    <br>
+    <p>Please input second number</p>
+    <input id="b">
+    <br>
+    <p>Please input third number</p>
+    <input id="c">
+    <br>
+    <br>
+    <button onclick="myFunction()">Sort!</button>
+    <br>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var a = +document.getElementById("a").value;
+            var b = +document.getElementById("b").value;
+            var c = +document.getElementById("c").value;
+
+            if (a > b && a > c) {
+                if (b > c) {
+                    document.getElementById("demo").innerHTML = a + " " + b + " " + c;
+                } else {
+                    document.getElementById("demo").innerHTML = a + " " + c + " " + b;
+                }
+
+            } else if (a < b && a < c) {
+                if (b < c) {
+                    document.getElementById("demo").innerHTML = c + " " + b + " " + a;
+                } else {
+                    document.getElementById("demo").innerHTML = b + " " + c + " " + a;
+                }
+            } else if (a < b && a > c) {
+                if (b > c) {
+                    document.getElementById("demo").innerHTML = b + " " + a + " " + c;
+                } else {
+                    document.getElementById("demo").innerHTML = c + " " + a + " " + b;
+                }
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

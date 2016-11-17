@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body #wrapper {
+    width: 960px;
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 16px;
+    margin: 10px;
+}
+
+body #wrapper .menu {
+    list-style-type: none;
+}
+
+body #wrapper .menu li a {
+    text-decoration: none;
+}
+
+body #wrapper .menu .content {
+    display: none;
+}
+
+body #wrapper .menu li {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, rgb(37, 220, 242) 0%, rgb(92, 174, 232) 65%, rgb(121, 148, 226) 100%);
+    background: -o-linear-gradient(top, rgb(37, 220, 242) 0%, rgb(92, 174, 232) 65%, rgb(121, 148, 226) 100%);
+    background: -ms-linear-gradient(top, rgb(37, 220, 242) 0%, rgb(92, 174, 232) 65%, rgb(121, 148, 226) 100%);
+    background: -moz-linear-gradient(top, rgb(37, 220, 242) 0%, rgb(92, 174, 232) 65%, rgb(121, 148, 226) 100%);
+    background: linear-gradient(to bottom, rgb(37, 220, 242) 0%, rgb(92, 174, 232) 65%, rgb(121, 148, 226) 100%);
+    padding: 12px 21px 9px 21px;
+}
+
+body #wrapper .menu li:hover .content {
+    display: block;
+}
+
+body #wrapper .menu li:hover > a {
+    font-size: 1.5em;
+    padding: 25px;
+}
+
+body #wrapper .menu .content {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(271deg, rgb(253, 255, 255) 0%, rgb(196, 231, 245) 62%, rgb(161, 216, 239) 100%);
+    background: -o-linear-gradient(271deg, rgb(253, 255, 255) 0%, rgb(196, 231, 245) 62%, rgb(161, 216, 239) 100%);
+    background: -ms-linear-gradient(271deg, rgb(253, 255, 255) 0%, rgb(196, 231, 245) 62%, rgb(161, 216, 239) 100%);
+    background: -moz-linear-gradient(271deg, rgb(253, 255, 255) 0%, rgb(196, 231, 245) 62%, rgb(161, 216, 239) 100%);
+    background: linear-gradient(179deg, rgb(253, 255, 255) 0%, rgb(196, 231, 245) 62%, rgb(161, 216, 239) 100%);
+    position: absolute;
+    
+    padding: 30px 20px 20px 20px;
+}
+
+body #wrapper .menu .content ul li {
+    display: list-item;
+    list-style-type: square;
+    list-style-position:  inside;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+body #wrapper .menu .content h3 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-weight: bold;
+}

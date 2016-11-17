@@ -1,0 +1,56 @@
+
+body, h1, h2, h3, h4, h5, h6, div{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}
+#wrapper {
+    margin:20px;
+    width:900px;
+    
+}
+#wrapper > div {
+    width:150px;
+    float:left;
+    border: 2px solid #D3D7DA;
+    margin: -1px;
+}
+
+#wrapper div:nth-of-type(1) hgroup {
+    background: url('imgs/install.png') no-repeat;
+    padding-top: 9px;
+}
+#wrapper div:nth-of-type(2) hgroup {
+    background: url('imgs/tuneUp.png') no-repeat;
+}
+#wrapper div:nth-of-type(3) hgroup {
+    background: url('imgs/manage.png') no-repeat;
+}
+#wrapper div:nth-of-type(4) hgroup {
+    background: url('imgs/openSource.png') no-repeat;
+}
+#wrapper div:nth-of-type(5) hgroup{
+    background: url('imgs/twittew.png') no-repeat;
+}
+#wrapper div:nth-of-type(6) hgroup{
+    background: url('imgs/about.png') no-repeat;
+}
+#wrapper > div:ntn-of-type(2n) {
+    background: #F1F2F3;
+	background: -moz-linear-gradient(top, #ffffff 20%, #F1F2F3 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #ffffff), color-stop(100%, #F1F2F3));
+	background: -webkit-linear-gradient(top, #ffffff 20%, #F1F2F3 100%);
+	background: -o-linear-gradient(top, #ffffff 20%, #F1F2F3 100%);
+	background: -ms-linear-gradient(top, #ffffff 20%, #F1F2F3 100%);
+	background: linear-gradient(to bottom, #ffffff 20%, #F1F2F3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#F1F2F3', GradientType=0);
+}
+hgroup {
+    background-position: left bottom !important;
+    padding-left: 45px;
+    padding-top:9px;
+}
+p {
+    padding: 5px;
+}

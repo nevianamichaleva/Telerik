@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;    
+}
+
+#wrapper {
+    width: 960px;
+    padding: 20px;
+}
+
+aside .sidebar li ul li {
+    display: none;
+    position: relative;
+}
+
+aside .sidebar {
+    width: 215px;
+    height: 232px;
+    border-radius: 11px;
+    background: -webkit-linear-gradient(top, rgb(210, 155, 255) 0%, rgb(166, 133, 255) 60%, rgb(137, 119, 255) 100%);
+    background: -o-linear-gradient(top, rgb(210, 155, 255) 0%, rgb(166, 133, 255) 60%, rgb(137, 119, 255) 100%);
+    background: -ms-linear-gradient(top, rgb(210, 155, 255) 0%, rgb(166, 133, 255) 60%, rgb(137, 119, 255) 100%);
+    background: -moz-linear-gradient(top, rgb(210, 155, 255) 0%, rgb(166, 133, 255) 60%, rgb(137, 119, 255) 100%);
+    background: linear-gradient(to bottom, rgb(210, 155, 255) 0%, rgb(166, 133, 255) 60%, rgb(137, 119, 255) 100%);
+    list-style-type: none;
+}
+aside .sidebar li {
+    padding: 5px;
+    text-align: center;
+}
+aside .sidebar li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    border-bottom: 1px solid #9D00FF;
+    padding: 5px;
+}
+aside ul li:last-of-type {
+  border: none;
+}
+aside .sidebar li a:hover {
+    border: 1px solid #9D00FF;
+    border-radius: 5px;
+}
+aside .sidebar li:hover ul li {
+    display: block;
+    margin: 5px;
+} 
+aside .sidebar li ul {
+    width: 234px;
+    position: absolute;
+    top: -5px;
+    left: 195px;
+    background-color: #B5AAFF;
+    border-radius: 5px;    
+}
+aside .sidebar li ul li a {
+    font-size: 18px;
+}
+aside .sidebar li ul li:hover::before {
+    content: url("imgs/arrow.png");
+    
+}

@@ -1,0 +1,19 @@
+<button id="sortByCateg">Sort By Category</button>
+<button id="sortByDate">Sort By Date</button>
+<div class="list-group">
+{{#each this}}
+<li class="list-group-item cookie-item" data-id="{{id}}">
+<h3>Title:<h3 class="list-group-item-heading text">{{text}}</h3></h3>
+<p >Category: <a class="list-group-item-text category" href="#/home?category={{category}}">{{category}}</a></p>
+<p class="list-group-item-text likes">Likes: {{likes}}</p>
+<p class="list-group-item-text dislikes">Dislikes: {{dislikes}}</p>
+<img class="picture" src="{{img}}" alt="picture" width = "100px">
+<p class="list-group-item-text">Share date: {{shareDate}}</p>
+<button class="like">Like</button>
+<button class="dislike">Dislike</button>
+<button class="reshare">Reshare</button>
+</li>
+{{/each}}
+</div>
+
+  

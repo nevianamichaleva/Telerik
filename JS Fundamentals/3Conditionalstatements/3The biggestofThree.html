@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>Write a script that finds the biggest of three numbers. Use nested if statements.</p>
+    <p>Please input first number</p>
+    <input id="a">
+    <br>
+    <p>Please input second number</p>
+    <input id="b">
+    <br>
+    <p>Please input third number</p>
+    <input id="c">
+    <br>
+    <br>
+    <button onclick="myFunction()">Check!</button>
+    <br>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var a = +document.getElementById("a").value;
+            var b = +document.getElementById("b").value;
+            var c = +document.getElementById("c").value;
+
+            if (a > b && a > c) {
+                document.getElementById("demo").innerHTML = "The biggest of three numbers is " + a;
+                
+            } else if (b > c && b>a) {
+                    document.getElementById("demo").innerHTML = "The biggest of three numbers is " + b;
+                
+            } else {
+                    document.getElementById("demo").innerHTML = "The biggest of three numbers is " + c;
+                }
+            
+        }
+    </script>
+
+</body>
+
+</html>

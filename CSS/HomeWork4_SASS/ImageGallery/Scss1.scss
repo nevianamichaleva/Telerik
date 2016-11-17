@@ -1,0 +1,17 @@
+@mixin image-size($w, $h) {
+    width:$w;
+height:$h;
+}
+nav {
+    img {
+        @include image-size(120px, 90px);
+    }
+}
+article {
+    display: none;
+    &:target {display:block}
+    figure {
+        @include image-size(120px * 2, 90px * 2);
+        
+    }
+}

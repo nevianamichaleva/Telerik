@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Write a script that prints all the numbers from 1 to N, that are not divisible by 3 and 7 at the same time</p>
+<p>Please input number N</p>
+<input id="a">
+<br>
+
+<br>
+<button onclick="myFunction()">Check</button>
+<br>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+var a = document.getElementById("a").value;
+var i;
+var num;
+for (i=1; i<=a;i++) {
+    if (i%3===0 && i%7===0) {continue;}
+        num += i + "<br>";
+         document.getElementById("demo").innerHTML = num;
+}
+}
+
+</script>
+
+</body>
+</html> 

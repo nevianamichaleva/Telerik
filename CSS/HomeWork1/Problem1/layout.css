@@ -1,0 +1,41 @@
+table {
+	width: 304px;
+	height: 205px;
+	background-color: 	#595959;
+	font-family: arial;
+}
+thead td{
+	color: #B0B0B0;
+	padding-top: 7px;
+}
+.lside {
+	font-style: italic;
+	font-size: 0.7em;
+	color: #FFFFFF ;
+}
+#red {
+	font-size: 0.7em;
+	color: #FF0000;
+	vertical-align: top;
+}
+.grey {
+	font-size: 0.7em;
+	color: #bbbbbb;
+}
+.yellow {
+	font-size: 0.7em;
+	color: #fdf7b4;
+}
+#orange {
+	color: #e16b1c;
+	font-size: 0.7em;
+}
+.down {
+	vertical-align: bottom;
+}
+img {
+	padding-right: 3px;
+}
+#FirstCol {
+	width: 99px;
+}

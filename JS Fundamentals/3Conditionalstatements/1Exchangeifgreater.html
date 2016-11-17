@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Write an if statement that takes two double variables a and b and exchanges their values if the first one is greater than the second.
+As a result print the values a and b, separated by a space.</p>
+<p>Please input first number</p>
+<input id="a">
+<br>
+<p>Please input second number</p>
+<input id="b">
+<br>
+<br>
+<button onclick="myFunction()">Check!</button>
+<br>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+var a = document.getElementById("a").value;
+var b = document.getElementById("b").value;
+var result;
+if (a>b) {
+    result= b + ' ' + a;
+    document.getElementById("demo").innerHTML=result;
+} else {
+result= a + ' ' + b;
+document.getElementById("demo").innerHTML=result;
+}
+}
+
+</script>
+
+</body>
+</html> 

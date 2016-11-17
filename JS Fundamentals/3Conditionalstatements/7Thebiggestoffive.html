@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The biggest of five numbers</title>
+</head>
+
+<body>
+    <p>Write a script that finds the greatest of given 5 variables.</p>
+    <p>Please input first number</p>
+    <input id="a">
+    <br>
+    <p>Please input second number</p>
+    <input id="b">
+    <br>
+    <p>Please input third number</p>
+    <input id="c">
+    <br>
+    <p>Please input fourth number</p>
+    <input id="d">
+    <br>
+    <p>Please input fifth number</p>
+    <input id="e">
+    <br>
+    <br>
+    <button onclick="myFunction()">Calculate!</button>
+    <br>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var a = +document.getElementById("a").value;
+            var b = +document.getElementById("b").value;
+            var c = +document.getElementById("c").value;
+            var d = +document.getElementById("d").value;
+            var e = +document.getElementById("e").value;
+
+            if (a > b && a > c && a > d && a > e) {
+                document.getElementById("demo").innerHTML = "The biggest number is " + a;
+            } else if (b > a && b > c && b > d && b > e) {
+                document.getElementById("demo").innerHTML = "The biggest number is " + b;
+            } else if (c > a && c > b && c > d && c > e) {
+                document.getElementById("demo").innerHTML = "The biggest number is " + c;
+            } else if (d > a && d > b && d > c && d > e) {
+                document.getElementById("demo").innerHTML = "The biggest number is " + d;
+            } else if (e > a && e > b && e > c && e > d) {
+                document.getElementById("demo").innerHTML = "The biggest number is " + e;
+            }
+        }
+    </script>
+</body>
+
+</html>

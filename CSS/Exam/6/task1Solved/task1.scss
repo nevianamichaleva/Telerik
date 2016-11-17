@@ -1,0 +1,106 @@
+﻿@mixin linear-gradient($start, $finish) {
+    background-color: $start;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=$start, endColorstr=$finish);
+    background-image: -moz-linear-gradient(top, $start 0%, $finish 100%);
+    background-image: -webkit-linear-gradient(top, $start 0%, $finish 100%);
+    background-image: -ms-linear-gradient(top, $start 0%, $finish 100%);
+    background-image: linear-gradient(top, $start 0%, $finish 100%);
+    background-image: -o-linear-gradient(top, $start 0%, $finish 100%);
+    background-image: -webkit-gradient(linear, right top, right bottom, color-stop(0%,$start), color-stop(100%,$finish));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 30px;
+
+    header {
+        /*Стилизация на цялата картинка*/
+        nav {
+            width: 960px;
+            height: 200px;
+
+            @include linear-gradient(#012F46, #75CEFC);
+            /*Първи ред меню*/
+            ul {
+                list-style-type: none;
+                position: absolute;
+                top: 55px;
+                left: 49px;
+                /*Стилизация на първи ред меню*/
+                li {
+                    float: left;
+                    margin-right: 14px;
+                    padding: 5px 10px 5px 10px;
+                    border-radius: 15px;
+                    /*Стилизация на втори ред меню*/
+                    ul {
+                        position: absolute;
+                        top: 50px;
+                        left: 0;
+
+                        li {
+                            padding: 5px;
+                            margin: 0;
+
+                            &.selected {
+                                ul {
+                                    li {
+                                        display:block;
+                                    }
+                                }
+                            }
+                            /*Стилизация на трети ред меню*/
+                            ul {
+                                width: 380px;
+                                height:220px;
+                                @include linear-gradient(#F6FCFF, #77D1FF);
+                                border-radius:15px;
+                                li {
+                                    margin: 10px;
+                                    border-bottom: 1px solid black;
+                                    &:last-of-type {
+                                        border:none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                    }
+
+                    &:hover {
+                        @include linear-gradient(#085075, #105B81);
+                    }
+
+                    &.selected {
+                        @include linear-gradient(#143C51, #27556D);
+
+                        ul {
+                            li {
+                                display: inline;
+
+                                ul {
+                                    li {
+                                        display: none;
+                                   }
+                                }
+                            }
+                        }
+                    }
+                    /*Всичко под първи ред меню*/
+                    li {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

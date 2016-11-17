@@ -1,0 +1,50 @@
+﻿
+body {
+#wrapper {
+    width: 700px;
+    height: 439px;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+   
+    .holder {
+        float:left;
+        img {
+            width: 549px;
+            height: 415px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        }
+        .playlist {
+            
+            padding-top:5px;
+            
+            ul {
+                list-style-type:none;
+                
+                li {
+                    margin: 5px;
+                   a{
+                       text-decoration:none;
+                       margin-top:10px;
+                       margin-left:10px;
+                        img {
+                            width: 90px;
+                            height: 70px;
+                            border-radius: 10px;
+                        }
+                        span {
+                       color:black;
+                       font-size: 18px;
+                       font-weight:bold;
+                       &:hover {
+                           text-decoration:underline;
+                       }
+                        }
+                  }
+                }
+            }
+        }
+    }
+}
+

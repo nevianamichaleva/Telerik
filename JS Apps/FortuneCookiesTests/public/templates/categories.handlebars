@@ -1,0 +1,13 @@
+<button id="sortByCateg">Sort By Category</button>
+<button id="sortByDate">Sort By Date</button>
+<h2>Sorted by categories</h2>
+{{#each this}}
+<h1>Category name: {{category}}</h1>
+{{#cookie}}
+<p class = "text">Title: {{text}}</p>
+<p class="likes">Likes:{{likes}}</p>
+<p class="dislikes">Dislikes:{{dislikes}}</p>
+<img class="picture" src="{{img}}" alt="picture" width = "100px">
+<p>Share date: {{shareDate}}</p>
+{{/cookie}}
+{{/each}}

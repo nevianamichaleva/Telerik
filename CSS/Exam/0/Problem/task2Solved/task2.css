@@ -1,0 +1,106 @@
+body,
+html,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 340px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.tab-content {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+.tab-strip li {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 14px;
+    background: -webkit-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+    background: -o-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+    background: -ms-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+    background: -moz-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+    background: linear-gradient(to bottom, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+    position: relative;
+}
+
+.tab-strip li:hover {
+    background: #EEEEEE;
+}
+
+.tab-strip li.current {
+    background: white;
+    border: none;
+    font-weight: bold;
+}
+
+.tab-strip li.current > .tab-content {
+    display: block;
+}
+
+.tab-content ul li {
+    display: list-item;
+    background: none;
+    border: none;
+    list-style-type: disc;
+    font-weight: normal;
+    list-style-position: inside;
+}
+
+.tab-content {
+    position: absolute;
+    width: 340px;
+    height: 230px;
+}
+
+.tab-content ul li ul li {
+    list-style-type: lower-alpha;
+}
+
+.tab-content table {
+    position: absolute;
+    top: 19px;
+    left: -77px;
+    background-color: #EEEEEE;
+    border-collapse: collapse;
+    width: 303px;
+    height: 151px;
+}
+
+.tab-content table th {
+    text-align: center;
+    padding: 5px;
+    background: -webkit-linear-gradient(top, rgb(171, 171, 171) 0%, rgb(228, 228, 228) 64%, rgb(238, 238, 238) 100%);
+    background: -o-linear-gradient(top, rgb(171, 171, 171) 0%, rgb(228, 228, 228) 64%, rgb(238, 238, 238) 100%);
+    background: -ms-linear-gradient(top, rgb(171, 171, 171) 0%, rgb(228, 228, 228) 64%, rgb(238, 238, 238) 100%);
+    background: -moz-linear-gradient(top, rgb(171, 171, 171) 0%, rgb(228, 228, 228) 64%, rgb(238, 238, 238) 100%);
+    background: linear-gradient(to bottom, rgb(171, 171, 171) 0%, rgb(228, 228, 228) 64%, rgb(238, 238, 238) 100%);
+}
+
+.tab-content table th,
+td {
+    border: 1px solid black;
+}
+
+.tab-content table td {
+    font-weight: normal;
+    padding-left: 5px;
+}

@@ -1,0 +1,114 @@
+#wrapper {
+    width: 409px;
+    height: 397px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -o-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -ms-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -moz-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: linear-gradient(to bottom, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+}
+
+    #wrapper form fieldset {
+        margin-bottom: 0px;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+
+        #wrapper form fieldset legend {
+            color: white;
+            text-align: right;
+            font-size: 22px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #wrapper form fieldset label {
+            color: white;
+            margin-top: 10px;
+  display: inline-block;
+        }
+
+        #wrapper form fieldset input[type=text], input[type=password] {
+            width: 155px;
+            height: 17px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background: -webkit-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+            background: -o-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+            background: -ms-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+            background: -moz-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+            background: linear-gradient(to bottom, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+            color:white;
+            margin: 2px;
+            padding: 5px 15px;
+            /* padding-right: 19px; */
+        }
+
+    #wrapper form input[type=radio] {
+        display: none;
+    }
+
+    #wrapper input[type=radio]:checked+label {
+        font-size:18px;
+        font-weight:bold;
+    }
+
+    #wrapper form {
+        text-align: right;
+        color: white;
+        margin: 0 13px 0 11px;
+    }
+
+button {
+    width: 141px;
+    height: 34px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    background: -webkit-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -o-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -ms-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -moz-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: linear-gradient(to bottom, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+}
+button:hover {
+    background: #F1FF8E;
+}
+
+input[type=reset] {
+    width: 141px;
+    height: 34px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background: -webkit-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -o-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -ms-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -moz-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: linear-gradient(to bottom, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+}
+input[type=reset]:hover {
+    background: #F1FF8E;
+}
+
+input[type=number] {
+    width: 46px;
+    height: 28px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -o-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -ms-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: -moz-linear-gradient(top, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    background: linear-gradient(to bottom, rgb(233, 253, 91) 0%, rgb(167, 179, 82) 40%, rgb(101, 105, 73) 80%, rgb(68, 68, 68) 100%);
+    
+    margin: 2px;
+    color:white;
+
+}

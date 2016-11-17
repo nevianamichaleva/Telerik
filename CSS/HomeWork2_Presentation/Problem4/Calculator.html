@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="images/calc.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div id="AllCalc">
+        <header>
+            <h1>Calculator</h1>
+            <div id="min">
+                <a href="#"><img src="images/min.png" /></a>
+            </div>
+            <div id="full">
+                <a href="#"><img src="images/full.png" /></a>
+            </div>
+            <div id="close">
+                <a href="#">&#10006;</a>
+            </div>
+        </header>
+        <div id="mainCalc">
+        <nav>
+            <ul>
+                <li><a class="underline" href="#">View</a></li>
+                <li><a class="underline" href="#">Edit</a></li>
+                <li><a class="underline" href="#">Help</a></li>
+            </ul>
+        </nav>
+        <main>
+            <input type="text" name="Result" id="Result" value="8854455"/>
+            <table>
+                <tr class="dark">
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr class="light">
+                    <td>63</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>47</td>
+                    <td></td>
+                    <td></td>
+                    <td>32</td>
+                </tr>
+                <tr class="dark">
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr class="light">
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>15</td>
+                    <td></td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </table>
+            <div class="radio1">
+                <input type="radio" id="hec" name="func" value="Hex"><label for="hex">Hex</label><br>
+                <input type="radio" id="dec" name="func" value="Dec" checked><label for="dec">Dec</label><br>
+                <input type="radio" id="oct" name="func" value="Oct"><label for="oct">Oct</label><br>
+                <input type="radio" id="bin" name="func" value="Bin"><label for="bin">Bin</label>
+            </div>
+            <div class="radio1">
+                <input type="radio" id="qword" name="word" value="QWord" checked><label for="qword">QWord</label><br>
+                <input type="radio" id="dword" name="word" value="DWord"><label for="dword">DWord</label><br>
+                <input type="radio" id="word" name="word" value="Word"><label for="word">Word</label><br>
+                <input type="radio" id="byte" name="word" value="Byte"><label for="byte">Byte</label>
+            </div>
+            <div id="LeftSide">
+                <button type="button" class="empty">&nbsp;</button>
+                <button type="button" class="leftside">Mod</button>
+                <button type="button" class="leftside">(</button>
+                <button type="button" class="leftside">)</button>
+                <button type="button" class="leftside">RoL</button>
+                <button type="button" class="leftside">RoR</button>
+                <button type="button" class="leftside">Or</button>
+                <button type="button" class="leftside">Xor</button>
+                <button type="button" class="leftside">Lsh</button>
+                <button type="button" class="leftside">Rsh</button>
+                <button type="button" class="leftside">Not</button>
+                <button type="button" class="leftside">And</button>
+            </div>
+            <div id="Alpha">
+                <button type="button">A</button>
+                <button type="button">B</button>
+                <button type="button">C</button>
+                <button type="button">D</button>
+                <button type="button">E</button>
+                <button type="button">F</button>
+            </div>
+            <div id="Func">
+                <button type="button">MC</button>
+                <button type="button">MR</button>
+                <button type="button">MS</button>
+                <button type="button">M+</button>
+                <button type="button">M-</button>
+            </div>
+            <div id="Pad">
+                <button type="button" class="like">&#x279e;</button>
+                <button type="button" class="like">CE</button>
+                <button type="button" class="like">C</button>
+                <button type="button" class="like">&plusmn;</button>
+                <button type="button" class="empty">&#8730;</button>
+                <button type="button" class="pad">7</button>
+                <button type="button" class="pad">8</button>
+                <button type="button" class="pad">9</button>
+                <button type="button" class="like">/</button>
+                <button type="button" class="empty">%</button>
+                <button type="button" class="pad">4</button>
+                <button type="button" class="pad">5</button>
+                <button type="button" class="pad">6</button>
+                <button type="button" class="like">*</button>
+                <button type="button" class="empty">1/x</button>
+                <button type="button" class="pad">1</button>
+                <button type="button" class="pad">2</button>
+                <button type="button" class="pad">3</button>
+                <button type="button" class="like">-</button>
+                <button type="button" id="Equal" class="like">=</button>
+                <button type="button" id="Zero" class="pad">0</button>
+                <button type="button" class="empty">.</button>
+                <button type="button" class="like">+</button>      
+                
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

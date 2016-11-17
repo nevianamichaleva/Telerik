@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    margin: 20px;
+    width:1057px;
+    height: 768px;
+    border: 3px solid #E4E4E4;
+    box-shadow: 0px 0px 3px 2px #3D3D3D;
+    border-radius: 8px;
+}
+nav {
+    width: 1000px;
+    height: 48px;
+    margin: 0 0 0 28px; 
+    border-bottom: 3px solid #7C7C7C;
+}
+nav ul {
+    list-style-type: none;
+    margin: 16px 174px;
+}
+nav ul li {  
+    display: inline;
+    padding-right: 7px;    
+}
+nav ul li a {
+    font-size: 31px;
+    color: #38C0F3;
+    font-weight: bold;
+}
+#content {
+    width: 1058px;
+    height: 704px;
+}
+section {
+    width: 690px;
+    height: 671px;
+    border: 3px solid #7C7C7C;
+    margin-left: 11px;
+    margin-top: 13px;
+}
+aside {
+    width: 322px;
+    height: 500px;
+    float: right;
+    position: absolute;
+    top: 205px;
+    left: 750px;   
+}
+fieldset {
+    width: 327px;
+    height: 194px;
+    margin: 6px -1px 0px 6px;
+    display: inline-block;
+}
+fieldset legend {
+    font-weight: bold;
+    color: #444444;
+    font-size: 26px;
+    text-align: center;
+}
+fieldset .pic {
+    background-image: url("notebook.png");
+    width: 175px;
+    height: 131px;
+    display: inline-block;
+}
+fieldset .inf {
+    display: inline-block;
+    position: relative;
+    top: -42px;
+    left: 2px;
+}
+fieldset .info {
+    display: inline-block;
+    position: relative;
+    top: -31px;
+    left: 53px;  
+}
+fieldset h4 {
+    font-size: 22px;
+    color: #444444;
+    margin-bottom: 16px;
+}
+fieldset .info h4 {
+    display: inline;
+    padding-right: 10px;
+}
+aside h2 {
+    margin-bottom: 26px;
+    color: #444444;
+    font-weight: normal;
+    font-size: 30px;
+}
+aside input {
+    margin-bottom: 42px;
+    margin-left: 80px;
+}
+.sub {
+    vertical-align: sub;
+    font-size: 95%;
+    
+}
+.big {
+    vertical-align: sub;
+    font-size: 1.2em;
+    
+}

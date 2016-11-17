@@ -1,0 +1,70 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+header {
+    background: -webkit-linear-gradient(top, rgb(0, 45, 68) 0%, rgb(48, 111, 144) 40%, rgb(96, 177, 218) 80%, rgb(119, 209, 255) 100%);
+    background: -o-linear-gradient(top, rgb(0, 45, 68) 0%, rgb(48, 111, 144) 40%, rgb(96, 177, 218) 80%, rgb(119, 209, 255) 100%);
+    background: -ms-linear-gradient(top, rgb(0, 45, 68) 0%, rgb(48, 111, 144) 40%, rgb(96, 177, 218) 80%, rgb(119, 209, 255) 100%);
+    background: -moz-linear-gradient(top, rgb(0, 45, 68) 0%, rgb(48, 111, 144) 40%, rgb(96, 177, 218) 80%, rgb(119, 209, 255) 100%);
+    background: linear-gradient(to bottom, rgb(0, 45, 68) 0%, rgb(48, 111, 144) 40%, rgb(96, 177, 218) 80%, rgb(119, 209, 255) 100%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul ul ul li {
+  display:none;
+}
+header nav ul ul li {
+  display: none;
+}
+header nav {
+  height: 200px;
+}
+header nav ul {
+  
+}
+header nav ul li {
+  display: inline-block;
+  margin: 55px -30px 0 60px;
+  
+}
+header nav ul li:hover {
+  background: -webkit-linear-gradient(top, rgb(16, 90, 129) 0%, rgb(24, 102, 141) 98%, rgb(83, 159, 199) 100%);
+    background: -o-linear-gradient(top, rgb(16, 90, 129) 0%, rgb(24, 102, 141) 98%, rgb(83, 159, 199) 100%);
+    background: -ms-linear-gradient(top, rgb(16, 90, 129) 0%, rgb(24, 102, 141) 98%, rgb(83, 159, 199) 100%);
+    background: -moz-linear-gradient(top, rgb(16, 90, 129) 0%, rgb(24, 102, 141) 98%, rgb(83, 159, 199) 100%);
+    background: linear-gradient(to bottom, rgb(16, 90, 129) 0%, rgb(24, 102, 141) 98%, rgb(83, 159, 199) 100%);
+    padding: 5px 17px 6px 10px;
+    border-radius: 15px;
+}
+header nav ul li.selected {
+  background: -webkit-linear-gradient(top, rgb(20, 60, 81) 0%, rgb(39, 86, 110) 100%);
+  background: -o-linear-gradient(top, rgb(20, 60, 81) 0%, rgb(39, 86, 110) 100%);
+  background: -ms-linear-gradient(top, rgb(20, 60, 81) 0%, rgb(39, 86, 110) 100%);
+  background: -moz-linear-gradient(top, rgb(20, 60, 81) 0%, rgb(39, 86, 110) 100%);
+  background: linear-gradient(to bottom, rgb(20, 60, 81) 0%, rgb(39, 86, 110) 100%);
+  padding: 5px 15px 8px 9px;
+  border-radius: 15px;
+}
+header nav ul li.selected > ul li {
+  display: inline-block;
+}
+header nav ul li.selected > ul li >ul li {
+  display: none;
+}

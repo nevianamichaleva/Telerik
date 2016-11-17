@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Write an expression that checks if given integer is odd or even.</p>
+<p>Please input number to check</p>
+<input id="num">
+
+<br>
+<button onclick="myFunction()">Check!</button>
+<br>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+var myNum = parseInt(document.getElementById("num").value);
+document.getElementById("demo").innerHTML = "The number " + myNum + " is " + (myNum%2===0 ? "even" : "odd");
+
+}
+
+</script>
+
+</body>
+</html> 

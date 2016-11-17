@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Try typeof on all variables you created.</p>
+<br>
+<p>Array literals</p>
+<p id="array"></p>
+<p>Boolean literals</p>
+<p id="boolean"></p>
+<p>Floating-point literals</p>
+<p id="flpoint"></p>
+<p>Integers</p>
+<p id="int"></p>
+<p>Object literals</p>
+<p id="obj"></p>
+<p>RegExp literals</p>
+<p id="regexp"></p>
+<p>String literals</p>
+<p id="string"></p>
+
+
+<script>
+    var arr=['babana', 'apple', 'orange', 'grape'];
+    var bool=(3>2);
+    var flpoint = 3.564;
+    var int=5;
+    var obj= {fname: "Jack", sname: "Daniels"};
+   var rexp= /ab+c/;
+     var txt="Imala e Mariana";
+document.getElementById("array").innerHTML = typeof(arr);
+document.getElementById("boolean").innerHTML = typeof(bool);
+    document.getElementById("flpoint").innerHTML = typeof(flpoint);
+    document.getElementById("int").innerHTML = typeof(int);
+    document.getElementById("obj").innerHTML = typeof(obj);
+    document.getElementById("regexp").innerHTML = typeof(rexp);
+    document.getElementById("string").innerHTML = typeof(txt);
+
+
+</script>
+
+</body>
+</html> 

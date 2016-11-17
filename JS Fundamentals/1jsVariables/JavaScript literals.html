@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Assign all the possible JavaScript literals to different variables.</p>
+<br>
+<p>Array literals</p>
+<p id="array"></p>
+<p>Boolean literals</p>
+<p id="boolean"></p>
+<p>Floating-point literals</p>
+<p id="flpoint"></p>
+<p>Integers</p>
+<p id="int"></p>
+<p>Object literals</p>
+<p id="obj"></p>
+<p>RegExp literals</p>
+<p id="regexp"></p>
+<p>String literals</p>
+<p id="string"></p>
+
+
+<script>
+    var arr=['babana', 'apple', 'orange', 'grape'];
+    var bool=(3>2);
+    var flpoint = 3.564;
+    var int=5;
+    var obj= {fname: "Jack", sname: "Daniels"};
+   var rexp= /ab+c/;
+     var txt="Imala e Mariana";
+document.getElementById("array").innerHTML = arr;
+document.getElementById("boolean").innerHTML = bool;
+    document.getElementById("flpoint").innerHTML = flpoint;
+    document.getElementById("int").innerHTML = int;
+    document.getElementById("obj").innerHTML = obj.fname + obj.sname;
+    document.getElementById("regexp").innerHTML = rexp;
+    document.getElementById("string").innerHTML = txt;
+
+
+</script>
+
+</body>
+</html> 

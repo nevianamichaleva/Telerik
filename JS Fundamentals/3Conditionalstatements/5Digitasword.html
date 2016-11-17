@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>Write a script that asks for a digit (0-9), and depending on the input, shows the digit as a word (in English). Print 'not a digit' in case of invalid input. Use a switch statement.</p>
+    <p>Please input digit from 0 to 9</p>
+    <input id="num" type="number" value="0">
+    <br>
+    <br>
+    <button onclick="myFunction()">Check!</button>
+    <br>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var num = parseInt(document.getElementById("num").value);
+            var text;
+            switch (num) {
+                case 0:
+                    text = "zero";
+                    break;
+                case 1:
+                    text = "one";
+                    break;
+                case 2:
+                    text = "two";
+                    break;
+                case 3:
+                    text = "three";
+                    break;
+                case 4:
+                    text = "four";
+                    break;
+                case 5:
+                    text = "five";
+                    break;
+                case 6:
+                    text = "six";
+                    break;
+                case 7:
+                    text = "seven";
+                    break;
+                case 8:
+                    text = "eight";
+                    break;
+                case 9:
+                    text = "nine";
+                    break;
+                default:
+                    text = "not a digit";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+
+</body>
+
+</html>

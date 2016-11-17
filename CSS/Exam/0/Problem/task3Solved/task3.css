@@ -1,0 +1,125 @@
+body #wrapper {
+    width: 960px;
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper div {
+    width: 379px;
+    height: 462px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: -webkit-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+    background: -o-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+    background: -ms-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+    background: -moz-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+    background: linear-gradient(to bottom, rgb(237, 237, 237) 0%, rgb(184, 184, 184) 80%, rgb(171, 171, 171) 100%);
+}
+
+#wrapper div h1 {
+    margin: 14px;
+    font-size: 30px;
+}
+
+div ul {
+    list-style-type: none;
+}
+
+#wrapper .messages-list .me-item .date {
+    font-family: Consolas;
+    font-size: 0.8em;
+    font-weight: normal;
+    position: relative;
+    left: 95px;
+}
+
+#wrapper .messages-list .me-item {
+    width: 230px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    background: -webkit-linear-gradient(272deg, rgb(43, 237, 255) 0%, rgb(100, 242, 255) 39%, rgb(156, 247, 255) 79%, rgb(188, 250, 255) 100%);
+    background: -o-linear-gradient(272deg, rgb(43, 237, 255) 0%, rgb(100, 242, 255) 39%, rgb(156, 247, 255) 79%, rgb(188, 250, 255) 100%);
+    background: -ms-linear-gradient(272deg, rgb(43, 237, 255) 0%, rgb(100, 242, 255) 39%, rgb(156, 247, 255) 79%, rgb(188, 250, 255) 100%);
+    background: -moz-linear-gradient(272deg, rgb(43, 237, 255) 0%, rgb(100, 242, 255) 39%, rgb(156, 247, 255) 79%, rgb(188, 250, 255) 100%);
+    background: linear-gradient(178deg, rgb(43, 237, 255) 0%, rgb(100, 242, 255) 39%, rgb(156, 247, 255) 79%, rgb(188, 250, 255) 100%);
+    position: relative;
+    top: -8px;
+    left: 92px;
+}
+
+#wrapper .messages-list .me-item p {
+    margin: 0 0 0 15px;
+}
+
+#wrapper .messages-list .me-item span {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0 0 0 15px;
+}
+
+#wrapper .messages-list .toshko-item {
+    width: 230px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    background: -webkit-linear-gradient(top, rgb(221, 255, 208) 0%, rgb(176, 255, 146) 42%, rgb(131, 255, 85) 84%, rgb(113, 255, 61) 100%);
+    background: -o-linear-gradient(top, rgb(221, 255, 208) 0%, rgb(176, 255, 146) 42%, rgb(131, 255, 85) 84%, rgb(113, 255, 61) 100%);
+    background: -ms-linear-gradient(top, rgb(221, 255, 208) 0%, rgb(176, 255, 146) 42%, rgb(131, 255, 85) 84%, rgb(113, 255, 61) 100%);
+    background: -moz-linear-gradient(top, rgb(221, 255, 208) 0%, rgb(176, 255, 146) 42%, rgb(131, 255, 85) 84%, rgb(113, 255, 61) 100%);
+    background: linear-gradient(to bottom, rgb(221, 255, 208) 0%, rgb(176, 255, 146) 42%, rgb(131, 255, 85) 84%, rgb(113, 255, 61) 100%);
+    position: relative;
+    top: -8px;
+    left: -25px;
+}
+
+#wrapper .messages-list .toshko-item .date {
+    font-family: Consolas;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+#wrapper .messages-list .toshko-item p {
+    margin: 0 0 0 15px;
+}
+
+#wrapper .messages-list .toshko-item span {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0 0 0 15px;
+}
+
+#wrapper input {
+    width: 273px;
+    height: 33px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    line-height: 25px;
+}
+
+#wrapper button {
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(186, 186, 186) 83%, rgb(175, 175, 175) 100%);
+    background: -o-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(186, 186, 186) 83%, rgb(175, 175, 175) 100%);
+    background: -ms-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(186, 186, 186) 83%, rgb(175, 175, 175) 100%);
+    background: -moz-linear-gradient(top, rgb(237, 237, 237) 0%, rgb(186, 186, 186) 83%, rgb(175, 175, 175) 100%);
+    background: linear-gradient(to bottom, rgb(237, 237, 237) 0%, rgb(186, 186, 186) 83%, rgb(175, 175, 175) 100%);
+    width: 70px;
+    height: 30px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+
+#wrapper button:hover {
+    background: white;
+}

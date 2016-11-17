@@ -1,0 +1,13 @@
+<h1>All materials</h1>
+{{#each this}}
+
+<p>Title: {{title}}</p>
+<p>ID: <a href="#/materials/{{id}}" data-id="{{id}}">{{id}}</a></p>
+<p>Description: {{description}}</p>
+<p>Created on: {{createdOn}}</p>
+<p>Rating: {{rating}}</p>
+<img src="{{img}}" alt="picture" width="100px">
+<p>UserID: {{user.id}}</p>
+<p>User: <a href="#/profiles/{{user.username}}">{{user.username}}</a></p>
+
+{{/each}}

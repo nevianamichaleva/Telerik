@@ -1,0 +1,1 @@
+function solve(args) {var x=+args[0], y=+args[1], point=((Math.pow(x,2))+(Math.pow(y,2))); console.log((point<=4 ? "yes" : "no") + " " + (Math.sqrt(Math.pow((x-0),2)+Math.pow((y-0),2))).toFixed(2));}

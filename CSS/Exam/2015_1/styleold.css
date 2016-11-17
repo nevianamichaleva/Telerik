@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: 10px;
+}
+
+body header {
+    height: 130px;
+}
+
+body #header #shellHeader #logo {
+    content: url("images/logo.png");
+    float: left;
+    width: 175px;
+    height: 65px;
+}
+
+body #header #shellHeader .separator {
+    width: 5px;
+    height: 45px;
+    background-color: black;
+    float: left;
+    margin: 10px 10px 0 3px;
+}
+
+body #header #shellHeader #headerTitle {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+body header #search {
+    display: block;
+    width: 1000px;
+    height: 65px;
+    background-color: #0078D7;
+}
+
+body header #search .searchInput {
+    width: 400px;
+    height: 35px;
+    margin: 13px 300px;
+}
+
+body #main {
+    margin: 20px 0 0px 13px;
+}
+
+body #main h1 {
+    font-size: 30px;
+    margin-bottom: 4px;
+	color: #333333;
+}
+
+body #main h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: normal;
+	color: #333333;
+}
+
+body #main hr {
+    border: 3px solid #333333;
+}
+
+body #main p {
+    font-size: 16px;
+    margin: 20px 0 33px 0;
+    line-height: 19px;
+    color: #333333;
+    text-align: justify;
+}
+
+body #footer {
+    font-size: 14px;
+    height: 60px;
+    background-color:#505050;
+    color: #CCCCCC;
+}
+
+body #footer #language {
+    float: left;
+        margin: 20px;
+}
+body #footer #copyright {
+    float: right;
+        margin: 20px;
+		font-weight: bold;
+}
+body #footer #footerMenu {
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+}
+body #footer #footerMenu li a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+body #footer #footerMenu li {
+    display: inline-block;
+ padding-right: 5px;
+}
+

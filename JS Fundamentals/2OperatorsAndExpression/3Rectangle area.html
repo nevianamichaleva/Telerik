@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Write an expression that calculates rectangle’s area by given width and height.</p>
+<p>Please input width</p>
+<input id="width">
+<br>
+<p>Please input height</p>
+<input id="height">
+<br>
+<br>
+<button onclick="myFunction()">Calculate!</button>
+<br>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+var a = document.getElementById("width").value;
+var b = document.getElementById("height").value
+document.getElementById("demo").innerHTML = "Rectangle area is " + (a*b);
+
+}
+
+</script>
+
+</body>
+</html> 

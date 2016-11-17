@@ -1,0 +1,358 @@
+{
+  "users": [
+    {
+      "username": "Nina",
+      "passHash": "17ba0791499db908433b80f37c5fbc89b870084b",
+      "usernameToLower": "nina",
+      "id": "13d5b565-b984-40d3-b3ff-8c4ae1165909",
+      "authKey": "13d5b565-b984-40d3-b3ff-8c4ae1165909SMrYyqkMzMKFkVWVVcTbPrEi",
+      "myCookies": [
+        {
+          "text": "Приморско",
+          "category": "Плаж",
+          "img": "http://primorsko-info.com/wp-content/uploads/2016/01/c8177a6949f4d7785abec7e91e69d222-150x150.jpg",
+          "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+          "likes": 6,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T12:16:25.538Z",
+          "id": "70fb5d63-5feb-44ca-b977-34346d288fa6",
+          "hours": 16
+        },
+        {
+          "text": "Созопол",
+          "category": "Плаж",
+          "img": "http://png.clipart.me/graphics/thumbs/142/summer-holiday-beach-background-of-a-beautiful-summer-sandy-beach-with-coconut-palm-trees-framing-the-image_142059349.jpg",
+          "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+          "likes": 0,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T12:26:45.096Z",
+          "id": "9bf51cb5-20d4-4168-8a52-5cd401bd2b64",
+          "hours": 22
+        },
+        {
+          "text": "Момче",
+          "category": "Бебета",
+          "img": "http://ureport.bg/wp-content/uploads/2014/12/%D0%B1%D0%B5%D0%B1%D0%B5-150x150.jpg",
+          "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+          "likes": 0,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T12:29:45.739Z",
+          "id": "d2d28077-822c-4e64-bb26-8ea1f7860db0",
+          "hours": 10
+        },
+        {
+          "text": "Созопол",
+          "category": "Плаж",
+          "img": "http://png.clipart.me/graphics/thumbs/142/summer-holiday-beach-background-of-a-beautiful-summer-sandy-beach-with-coconut-palm-trees-framing-the-image_142059349.jpg",
+          "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+          "likes": 2,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T12:15:24.519Z",
+          "id": "9c24ce62-869d-4604-b92b-582234d8f532",
+          "hours": 12
+        },
+        {
+          "text": "Созопол",
+          "category": "Плаж",
+          "img": "http://png.clipart.me/graphics/thumbs/142/summer-holiday-beach-background-of-a-beautiful-summer-sandy-beach-with-coconut-palm-trees-framing-the-image_142059349.jpg",
+          "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+          "likes": 2,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T12:15:24.519Z",
+          "id": "9c24ce62-869d-4604-b92b-582234d8f532",
+          "hours": 12
+        },
+        {
+          "text": "Созопол",
+          "category": "Плаж",
+          "img": "http://png.clipart.me/graphics/thumbs/142/summer-holiday-beach-background-of-a-beautiful-summer-sandy-beach-with-coconut-palm-trees-framing-the-image_142059349.jpg",
+          "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+          "likes": 2,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T12:15:24.519Z",
+          "id": "9c24ce62-869d-4604-b92b-582234d8f532",
+          "hours": 12
+        },
+        {
+          "text": "Момиче",
+          "category": "Бебета",
+          "img": "http://plevenzapleven.bg/wp-content/uploads/2016/01/bebe-2016-150x150.jpg",
+          "userId": "78982051-88e7-4848-8a2d-74828549d292",
+          "likes": 0,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T13:18:41.060Z",
+          "id": "c6af5ed7-2f84-4d83-ac78-3a711968760d",
+          "hours": 14
+        }
+      ]
+    },
+    {
+      "username": "Mila",
+      "passHash": "17ba0791499db908433b80f37c5fbc89b870084b",
+      "usernameToLower": "mila",
+      "id": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "authKey": "9dcac277-35f6-4e1b-9ef6-3f017338bc0dlkgAvdiUgbqZCSCuwljgUDiS",
+      "myCookies": [
+        {
+          "text": "Камчия",
+          "category": "Плаж",
+          "img": "http://ureport.bg/wp-content/uploads/2015/04/%D0%9A%D0%B0%D0%BC%D1%87%D0%B8%D1%8F-150x150.jpg",
+          "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+          "likes": 0,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T12:27:34.654Z",
+          "id": "640e6575-add4-4c5c-bf13-f3649ff5fad8",
+          "hours": 15
+        },
+        {
+          "text": "Камчия",
+          "category": "Плаж",
+          "img": "http://ureport.bg/wp-content/uploads/2015/04/%D0%9A%D0%B0%D0%BC%D1%87%D0%B8%D1%8F-150x150.jpg",
+          "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+          "likes": 0,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T12:27:34.654Z",
+          "id": "640e6575-add4-4c5c-bf13-f3649ff5fad8",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "username": "Maria",
+      "passHash": "6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2",
+      "usernameToLower": "maria",
+      "id": "78982051-88e7-4848-8a2d-74828549d292",
+      "authKey": "78982051-88e7-4848-8a2d-74828549d292ANzfCKgcVzbWIZkVvumJPiaX",
+      "myCookies": [
+        {
+          "text": "Созопол",
+          "category": "Плаж",
+          "img": "http://png.clipart.me/graphics/thumbs/142/summer-holiday-beach-background-of-a-beautiful-summer-sandy-beach-with-coconut-palm-trees-framing-the-image_142059349.jpg",
+          "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+          "likes": 2,
+          "dislikes": 0,
+          "shareDate": "2016-10-02T12:27:45.062Z",
+          "id": "b66fe901-8a21-46d3-a966-5f0c366eecc8",
+          "hours": 16
+        }
+      ]
+    },
+    {
+      "username": "Neviana",
+      "passHash": "17ba0791499db908433b80f37c5fbc89b870084b",
+      "usernameToLower": "neviana",
+      "id": "3919a566-1db6-48e9-8602-27968a0b699d",
+      "authKey": "3919a566-1db6-48e9-8602-27968a0b699dxrOlJkHBYZbtPuJhIDakiZts",
+      "myCookies": [
+        {
+          "text": "Варна",
+          "category": "Плаж",
+          "img": "http://destinacia.bg/wp-content/uploads/2014/08/64_big-150x150.jpg",
+          "userId": "13d5b565-b984-40d3-b3ff-8c4ae1165909",
+          "likes": 0,
+          "dislikes": 0,
+          "shareDate": "2016-10-03T09:40:35.334Z",
+          "id": "abe07606-35a2-486f-9825-20d929ec3b6f",
+          "hours": 14
+        }
+      ]
+    },
+    {
+      "username": "Slavi",
+      "passHash": "17ba0791499db908433b80f37c5fbc89b870084b",
+      "usernameToLower": "slavi",
+      "id": "52c91b3f-2254-42b7-865f-ede7302db5ac",
+      "authKey": "52c91b3f-2254-42b7-865f-ede7302db5aclVRzhmGOfHbltnGZfuqnwhXz"
+    }
+  ],
+  "cookies": [
+    {
+      "text": "Созопол",
+      "category": "Плаж",
+      "img": "http://png.clipart.me/graphics/thumbs/142/summer-holiday-beach-background-of-a-beautiful-summer-sandy-beach-with-coconut-palm-trees-framing-the-image_142059349.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 2,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:15:24.519Z",
+      "id": "9c24ce62-869d-4604-b92b-582234d8f532",
+      "hours": 12
+    },
+    {
+      "text": "Приморско",
+      "category": "Плаж",
+      "img": "http://primorsko-info.com/wp-content/uploads/2016/01/c8177a6949f4d7785abec7e91e69d222-150x150.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 6,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:16:25.538Z",
+      "id": "70fb5d63-5feb-44ca-b977-34346d288fa6",
+      "hours": 16
+    },
+    {
+      "text": "Камчия",
+      "category": "Плаж",
+      "img": "http://ureport.bg/wp-content/uploads/2015/04/%D0%9A%D0%B0%D0%BC%D1%87%D0%B8%D1%8F-150x150.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 5,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:16:47.610Z",
+      "id": "887203dd-2109-4852-bbb0-d01a3e5836cc"
+    },
+    {
+      "text": "Момиче",
+      "category": "Бебета",
+      "img": "http://plevenzapleven.bg/wp-content/uploads/2016/01/bebe-2016-150x150.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 13,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:17:31.487Z",
+      "id": "847fa5c1-3957-484d-b9bb-55488268f211"
+    },
+    {
+      "text": "Момче",
+      "category": "Бебета",
+      "img": "http://ureport.bg/wp-content/uploads/2014/12/%D0%B1%D0%B5%D0%B1%D0%B5-150x150.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:17:54.948Z",
+      "id": "6d95172c-0f5d-4dac-ac02-1ae8f2ae650c"
+    },
+    {
+      "text": "Ася",
+      "category": "Девойки",
+      "img": "http://spisanie.muscleandfitness.bg/wp-content/uploads/2015/04/IMG_0609-150x150.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 7,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:18:32.736Z",
+      "id": "ba691619-72f7-434d-8dc0-c11a589439eb"
+    },
+    {
+      "text": "Созопол",
+      "category": "Плаж",
+      "img": "http://png.clipart.me/graphics/thumbs/142/summer-holiday-beach-background-of-a-beautiful-summer-sandy-beach-with-coconut-palm-trees-framing-the-image_142059349.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:26:45.096Z",
+      "id": "9bf51cb5-20d4-4168-8a52-5cd401bd2b64",
+      "hours": 22
+    },
+    {
+      "text": "Камчия",
+      "category": "Плаж",
+      "img": "http://ureport.bg/wp-content/uploads/2015/04/%D0%9A%D0%B0%D0%BC%D1%87%D0%B8%D1%8F-150x150.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:27:34.654Z",
+      "id": "640e6575-add4-4c5c-bf13-f3649ff5fad8",
+      "hours": 15
+    },
+    {
+      "text": "Созопол",
+      "category": "Плаж",
+      "img": "http://png.clipart.me/graphics/thumbs/142/summer-holiday-beach-background-of-a-beautiful-summer-sandy-beach-with-coconut-palm-trees-framing-the-image_142059349.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 2,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:27:45.062Z",
+      "id": "b66fe901-8a21-46d3-a966-5f0c366eecc8",
+      "hours": 16
+    },
+    {
+      "text": "Момче",
+      "category": "Бебета",
+      "img": "http://ureport.bg/wp-content/uploads/2014/12/%D0%B1%D0%B5%D0%B1%D0%B5-150x150.jpg",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T12:29:45.739Z",
+      "id": "d2d28077-822c-4e64-bb26-8ea1f7860db0",
+      "hours": 10
+    },
+    {
+      "text": "MMmm",
+      "category": "aaaa",
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ4dqreDrgIGlyOVs2Y-dJaCMZFYYX7yJqSf0CXFShGJYzbCr-xiQ",
+      "userId": "9dcac277-35f6-4e1b-9ef6-3f017338bc0d",
+      "likes": 0,
+      "dislikes": 9,
+      "shareDate": "2016-10-02T12:33:36.344Z",
+      "id": "46751883-0117-4aad-a28a-ea4ff1e3cd76"
+    },
+    {
+      "text": "Момиче",
+      "category": "Бебета",
+      "img": "http://plevenzapleven.bg/wp-content/uploads/2016/01/bebe-2016-150x150.jpg",
+      "userId": "78982051-88e7-4848-8a2d-74828549d292",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T13:18:41.060Z",
+      "id": "c6af5ed7-2f84-4d83-ac78-3a711968760d",
+      "hours": 14
+    },
+    {
+      "text": "Момиче",
+      "category": "Бебета",
+      "img": "http://plevenzapleven.bg/wp-content/uploads/2016/01/bebe-2016-150x150.jpg",
+      "userId": "78982051-88e7-4848-8a2d-74828549d292",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-02T13:19:20.978Z",
+      "id": "f1fa3495-bd9c-4a48-9ced-6b2bbaf496e9"
+    },
+    {
+      "text": "Варна",
+      "category": "Плаж",
+      "img": "http://destinacia.bg/wp-content/uploads/2014/08/64_big-150x150.jpg",
+      "userId": "13d5b565-b984-40d3-b3ff-8c4ae1165909",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-03T09:40:13.562Z",
+      "id": "a32d49d1-cb45-4604-8941-de4cffafa07c"
+    },
+    {
+      "text": "Варна",
+      "category": "Плаж",
+      "img": "http://destinacia.bg/wp-content/uploads/2014/08/64_big-150x150.jpg",
+      "userId": "13d5b565-b984-40d3-b3ff-8c4ae1165909",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-03T09:40:35.334Z",
+      "id": "abe07606-35a2-486f-9825-20d929ec3b6f",
+      "hours": 14
+    },
+    {
+      "text": "Созопол",
+      "category": "Плаж",
+      "img": "http://png.clipart.me/graphics/thumbs/142/summer-holiday-beach-background-of-a-beautiful-summer-sandy-beach-with-coconut-palm-trees-framing-the-image_142059349.jpg",
+      "userId": "13d5b565-b984-40d3-b3ff-8c4ae1165909",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-03T09:41:01.389Z",
+      "id": "b1901d1b-c330-4153-a096-c8a825445d32"
+    },
+    {
+      "text": "Дари",
+      "category": "Деца",
+      "img": "http://promoconsult.net/wp-content/uploads/2016/05/%D0%94%D0%B5%D1%86%D0%B0.jpg",
+      "userId": "3919a566-1db6-48e9-8602-27968a0b699d",
+      "likes": 17,
+      "dislikes": 0,
+      "shareDate": "2016-10-03T11:13:26.071Z",
+      "id": "88620a73-4394-4e62-8d4f-9d618d326126"
+    },
+    {
+      "text": "Дари",
+      "category": "Деца",
+      "img": "http://promoconsult.net/wp-content/uploads/2016/05/%D0%94%D0%B5%D1%86%D0%B0.jpg",
+      "userId": "3919a566-1db6-48e9-8602-27968a0b699d",
+      "likes": 0,
+      "dislikes": 0,
+      "shareDate": "2016-10-03T11:13:40.832Z",
+      "id": "cc639cfa-e7b6-4b8a-95a1-18498d49a77d"
+    }
+  ]
+}

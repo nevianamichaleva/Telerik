@@ -1,0 +1,254 @@
+@mixin clearfix {
+    &:after {
+        content:'';
+        clear:both;
+        display: block;
+    }
+}
+@mixin linear-gradient($start, $finish) {
+   background-color:$start;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=$start, endColorstr=$finish);
+ background-image:-moz-linear-gradient(top, $start 0%, $finish 100%);
+ background-image:-webkit-linear-gradient(top, $start 0%, $finish 100%);
+ background-image:-ms-linear-gradient(top, $start 0%, $finish 100%);
+ background-image:linear-gradient(top, $start 0%, $finish 100%);
+ background-image:-o-linear-gradient(top, $start 0%, $finish 100%);
+ background-image:-webkit-gradient(linear, right top, right bottom, color-stop(0%,$start), color-stop(100%,$finish));
+}
+$textcolorl: #cccccc;
+$textcolord: #a8a8a8;
+$bgcolor: #B35EF3;
+$bcolor: #603382;
+$bradius: 10px;
+$fsize:14px;
+$ffamily1: Arial, Helvetica, sans-serif;
+$ffamily2:Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+$white: #ffffff;
+$black: #000000;
+  .clearfix:after, body header div#header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after, .clearfix:before, body header div#header-container:before, body header nav:before, body header nav ul:before, body header nav ul li ul.sub-nav-list:before, body section:before, body aside:before {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .clearfix:after, body header div#header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after {
+        clear: both;
+    }
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
+    display: block;
+    }
+body {
+    font: $fsize normal $ffamily1;
+    color:$white;
+    @include linear-gradient(darken(#d394ff, 20% ),darken(#9326f3,30%));
+    header {
+        padding-top: 25px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+    
+    div#header-container div#logo-container {
+            float: left;
+            position: relative;
+        }
+     div#header-container div#reg-form-container {
+            float: right;
+            position: relative;
+            right: 5%;
+            top: 50%;
+        }
+    div#header-container div#reg-form-container div {
+                text-align: right;
+            }
+     div#header-container div#reg-form-container div label {
+                    width: 50px;
+                    margin: 5px;
+                }
+     div#header-container div#reg-form-container div input {
+                    width: 130px;
+                    border: 1px solid $bcolor;
+                    border-radius: $bradius;
+                    padding: 2px 5px;
+                    margin: 5px;
+                    background-color: $bgcolor;
+                }
+     div#header-container div#reg-form-container button {
+                margin-left: auto;
+                margin-right: auto;
+                font-weight: bold;
+                border: 2px solid $bcolor;
+                border-style: outset;
+                border-radius: $bradius;
+                padding: 5px 8px;
+                background-color: $bgcolor;
+                color: $white;
+            }
+    div#header-container div#reg-form-container button:hover {
+                    background-color: $bgcolor;
+                    border-style: inset;
+                    color: $white;
+                    }
+    }
+    header nav {
+            display: inline-block;
+            width: 75%;
+            margin: 20px 20px 20px 20px;
+            padding: 12px;
+            border: 2px solid $black;
+            border-radius: $bradius+5px;
+            ul.nav-list {
+                list-style-type: none;
+            }
+            ul li {
+                float: left;
+                margin: 0;
+
+                &:hover > a {
+                    text-decoration: underline;
+                    color: $textcolorl;
+                }
+                &:hover > a + ul {
+                        display: block;
+                    }
+                ul.sub-nav-list {
+                    position: absolute;
+                    display: none;
+                    background-color: $bgcolor;
+                    border-radius: $bradius/2;
+                }
+                ul li {
+                    float: none;
+                    margin: 0 15px;
+                    padding: 10px 0;
+                    border-bottom: 1px solid $black;
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+                
+               & > a {
+                        font-size: $fsize*1.2;
+                        color:$white;
+                    }
+               }
+                a {
+                    text-decoration: none;
+                    padding: 0 10px 0 10px;
+                    color: $white;
+                    font: $fsize*1.4 normal $ffamily1;
+                    &:selected {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    section {
+        width: 75%;
+        float: left;
+        color: $black;
+        article {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid $black;
+            border-radius: $bradius+5px;
+            header {
+                background: none;
+                padding: 5px;
+                h1 {
+                    font-size: $fsize*1.4;
+                    padding: 0;
+                }
+            }
+            footer {
+                padding: 5px;
+                p {
+                    font-size: $fsize+5px;
+                    text-align: right;
+                    font-weight: normal;
+                    time {
+                        font-family: $ffamily2;
+                    }
+                    a {
+                        text-decoration: none;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    aside {
+        float: left;
+        width: 20%;
+        margin: 20px;
+        & > ul {
+            list-style-type: none;
+            & > li {
+                margin: 15px 0;
+                padding: 15px;
+                border: 1px solid $black;
+                border-radius: $bradius/2;
+                h2 {
+                    font-size: $fsize*1.1;
+                    font-weight: bold;
+                }
+                p {
+                    margin-top: 10px;
+                    margin-right: 5px;
+                    margin-bottom: 10px;
+                    margin-left: 5px;
+                    font-size: $fsize;
+                    a {
+                        color: $textcolorl;
+                        text-decoration: none;
+                    }
+                    strong {
+                        color: $textcolorl;
+                        font-weight: bold;
+                        font-style: normal;
+                    }
+                    em {
+                        color: $textcolorl;
+                        font-weight: normal;
+                        font-style: italic;
+                    }
+                }
+                ul {
+                    list-style-type: none;
+                    margin-top: 10px;
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                    margin-left: 0px;
+                    li {
+                        margin-top: 5px;
+                        margin-left: 10px;
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                        background: url("images/li-dot.png") no-repeat;
+                        background-position: 0 50%;
+                        padding-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        @include clearfix();
+        padding-top: 15px;
+        padding-bottom: 25px;
+        text-align: center;
+        p {
+            font-size: $fsize*1.2;
+            font-weight: bold;
+        }
+        
+    }
+}

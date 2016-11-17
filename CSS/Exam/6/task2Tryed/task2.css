@@ -1,0 +1,45 @@
+html,
+body,
+div,
+form,
+input,
+button,
+a {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #000000;
+  font-size: 16px;
+  margin:20px;
+  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+}
+#wrapper .invisible {
+    display: none;
+}
+#wrapper .btn-login-form .current {
+    display:block;
+}
+#form-login {
+    width: 450px;
+    height: 170px;
+}
+fieldset {
+    background: -webkit-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(189, 189, 189) 40%, rgb(126, 126, 126) 79%, rgb(94, 94, 94) 100%);
+background: -o-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(189, 189, 189) 40%, rgb(126, 126, 126) 79%, rgb(94, 94, 94) 100%);
+background: -ms-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(189, 189, 189) 40%, rgb(126, 126, 126) 79%, rgb(94, 94, 94) 100%);
+background: -moz-linear-gradient(top, rgb(252, 252, 252) 0%, rgb(189, 189, 189) 40%, rgb(126, 126, 126) 79%, rgb(94, 94, 94) 100%);
+background: linear-gradient(to bottom, rgb(252, 252, 252) 0%, rgb(189, 189, 189) 40%, rgb(126, 126, 126) 79%, rgb(94, 94, 94) 100%);
+
+border:3px solid black;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
+}
+fieldset legend {
+    text-align: center;
+padding: 20px;
+font-size: 25px;
+font-style: italic;
+font-weight: bold;
+}

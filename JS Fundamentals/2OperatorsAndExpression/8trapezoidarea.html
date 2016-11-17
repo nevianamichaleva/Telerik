@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Write an expression that calculates trapezoid's area by given sides a and b and height h</p>
+<p>Please input side a</p>
+<input id="a">
+<br>
+<p>Please input side b</p>
+<input id="b">
+<br>
+<p>Please input height</p>
+<input id="h">
+<br>
+<br>
+<button onclick="myFunction()">Calculate!</button>
+<br>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+var a = document.getElementById("a").value;
+var b = document.getElementById("b").value;
+var h = document.getElementById("h").value
+document.getElementById("demo").innerHTML = "Trapezoid's area is " + (((a+b)/2)*h);
+
+}
+
+</script>
+
+</body>
+</html> 

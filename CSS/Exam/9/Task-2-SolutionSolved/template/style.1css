@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+  font-size: 16px;
+  width: 960px; }
+  body #wrapper .menu {
+    list-style-type: none; }
+    body #wrapper .menu li {
+      background-color: #B6FF00;
+      border-radius: 15px;
+      width: 170px;
+      margin-bottom: 10px; }
+      body #wrapper .menu li a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        text-align: center;
+        padding-top: 10px; }
+      body #wrapper .menu li .content {
+        display: none;
+        position: absolute;
+        top: 15px;
+        left: 170px; }
+      body #wrapper .menu li:hover {
+        text-decoration: underline; }
+        body #wrapper .menu li:hover .content {
+          display: block; }
+        body #wrapper .menu li:hover .sub-menu li img {
+          display: none;
+          width: 500px;
+          border-radius: 10px; }
+    body #wrapper .menu .content .sub-menu li {
+      background-color: #008000;
+      width: 540px;
+      padding: 10px;
+      border-radius: 10px;
+      list-style-type: none; }
+      body #wrapper .menu .content .sub-menu li a {
+        text-decoration: none;
+        color: white;
+        text-align: start; }
+      body #wrapper .menu .content .sub-menu li:hover img {
+        display: block; }
+
+/*# sourceMappingURL=style.css.map */

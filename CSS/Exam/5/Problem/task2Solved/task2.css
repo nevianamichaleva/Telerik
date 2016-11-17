@@ -1,0 +1,34 @@
+body #wrapper {
+  width: 700px;
+  height: 439px;
+  border-radius: 5px;
+  background-color: #CCCCCC; }
+  body #wrapper .holder {
+    float: left; }
+    body #wrapper .holder img {
+      width: 549px;
+      height: 415px;
+      margin: 10px;
+      border-radius: 5px; }
+  body #wrapper .playlist {
+    padding-top: 5px; }
+    body #wrapper .playlist ul {
+      list-style-type: none; }
+      body #wrapper .playlist ul li {
+        margin: 5px; }
+        body #wrapper .playlist ul li a {
+          text-decoration: none;
+          margin-top: 10px;
+          margin-left: 10px; }
+          body #wrapper .playlist ul li a img {
+            width: 90px;
+            height: 70px;
+            border-radius: 10px; }
+          body #wrapper .playlist ul li a span {
+            color: black;
+            font-size: 18px;
+            font-weight: bold; }
+            body #wrapper .playlist ul li a span:hover {
+              text-decoration: underline; }
+
+/*# sourceMappingURL=task2.css.map */

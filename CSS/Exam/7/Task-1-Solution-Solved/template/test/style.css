@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	background-image: url('images/header-bg.png');
+	height: 50px;
+}
+
+header h1 {
+	float: left;
+	color: #4E5553;
+	font-size: 16px;
+	margin-top: 18px;
+	margin-left: 16px;
+	text-transform: uppercase;
+}
+
+#nav {
+	float: right;
+	display: inline-block;
+}
+#nav ul {
+	text-decoration: none;
+	list-style-type: none;
+	float: right;
+	margin-right: 3px;
+	margin-top: 20px;
+}
+
+#nav ul li {
+	float: left;
+	color: #666C68;
+	font-size: 14px;
+	margin-right: 22px;
+}
+
+#searchBar {
+	background-color: #000000;
+	height: 35px;
+}
+
+#archives {
+	float: left;
+	color: #B9C6B9;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+#archives a {
+	color: #B9C6B9;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#search {
+	float: right;
+	margin-top: 10px;
+	margin-right: 8px;
+}
+
+#search a {
+	color: #C6C6A0;
+	text-decoration: none;
+}
+
+#content h1 {
+	font-size: 24px;
+	color: #575E5B;
+	margin-top: 22px;
+	margin-bottom: 15px;
+}
+
+article p {
+	font-size: 14px;
+	color: #575E5B;
+	margin-bottom: 15px;
+}

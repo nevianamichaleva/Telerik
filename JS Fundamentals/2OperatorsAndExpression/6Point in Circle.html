@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Write an expression that checks if given point P(x, y) is within a circle K({0,0}, 5). //{0,0} is the centre and 5 is the radius</p>
+<p>Please input point x</p>
+<input id="x">
+<br>
+<p>Please input point y</p>
+<input id="y">
+<br>
+<br>
+<button onclick="myFunction()">Check!</button>
+<br>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+var x = document.getElementById("x").value;
+var y = document.getElementById("y").value
+document.getElementById("demo").innerHTML = "The given point P(" + x + "," + y +")" +" is " +(Math.pow((x-0),2)+Math.pow((y-0),2)<=25);
+
+}
+
+</script>
+
+</body>
+</html> 

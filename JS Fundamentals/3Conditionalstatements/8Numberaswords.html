@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Number as words</title>
+</head>
+
+<body>
+    <p>Write a script that converts a number in the range [0 - 999] to words, corresponding to its English pronunciation.</p>
+    <p>Please input number between 0 and 999</p>
+    <input id="a">
+    <br>
+
+    <br>
+    <button onclick="myFunction()">Convert!</button>
+    <br>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var num = document.getElementById("a").value;
+            var singleDigits = ["zero", "one", "two", "three", "four",
+                "five", "six", "seven", "eight", "nine"
+            ];
+
+            var twoDigits = ["", "ten", "eleven", "twelve", "thirteen", "fourteen",
+                "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"
+            ];
+
+            var tensMultiple = ["", "", "twenty", "thirty", "forty", "fifty",
+                "sixty", "seventy", "eighty", "ninety"
+            ];
+
+            var n = num.toString();
+            var z = n.length;
+
+            if (z === 1) {
+                document.getElementById("demo").innerHTML = singleDigits[num];
+            } else if (num < 20 && z === 2) {
+                document.getElementById("demo").innerHTML = twoDigits[num - 9];
+            } else if (z === 2) {
+                var ost = num % 10;
+                var num2 = parseInt(num / 10);
+                document.getElementById("demo").innerHTML = tensMultiple[num2] + "-" + singleDigits[ost];
+            } else if (z === 3) {
+                var h = Math.floor(num / 100);
+                var d = num % 100;
+                d = Math.floor(d / 10);
+                var e = num % 10;
+                document.getElementById("demo").innerHTML = singleDigits[h] + " hundred " + tensMultiple[d] + "-" + singleDigits[e];
+            }
+        }
+    </script>
+</body>
+
+</html>
